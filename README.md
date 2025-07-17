@@ -1,6 +1,6 @@
 ---
 created: 2025-07-16T14:41:25
-modified: 2025-07-17T16:30:03
+modified: 2025-07-17T16:56:15
 ---
 
 # Today I Learned
@@ -10,10 +10,11 @@ modified: 2025-07-17T16:30:03
 This is my personal collection of Today I Learned posts. Each post is a concise write-up about something small I learned each day, kept in a micro-blog format without headings or sections.
 
 <!-- index starts -->
-**Total TIL: 1**
+**Total TILs: 2**
 
 ## Recent TILs
 
+* **2025-07-17** - [YouTube URL Schemes](posts/youtube-url-schemes.md)
 * **2025-07-16** - [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
 
 ---
@@ -31,8 +32,9 @@ This is my personal collection of Today I Learned posts. Each post is a concise 
 </details>
 
 <details>
-<summary>url-schemes (1)</summary>
+<summary>url-schemes (2)</summary>
 
+* [YouTube URL Schemes](posts/youtube-url-schemes.md)
 * [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
 
 </details>
@@ -48,8 +50,9 @@ This is my personal collection of Today I Learned posts. Each post is a concise 
 <summary>2025</summary>
 
 <details>
-<summary>July (1)</summary>
+<summary>July (2)</summary>
 
+* [YouTube URL Schemes](posts/youtube-url-schemes.md)
 * [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
 
 </details>
