@@ -10,4 +10,51 @@ modified: 2025-07-17T16:30:03
 This is my personal collection of Today I Learned posts. Each post is a concise write-up about something small I learned each day, kept in a micro-blog format without headings or sections.
 
 <!-- index starts -->
+**Total TIL: 1**
+
+## Recent TILs
+
+* **2025-07-16** - [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
+
+---
+
+## Browse All TILs
+
+<details>
+<summary>By Category</summary>
+
+<details>
+<summary>github (1)</summary>
+
+* [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
+
+</details>
+
+<details>
+<summary>url-schemes (1)</summary>
+
+* [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
+
+</details>
+
+</details>
+
+---
+
+<details>
+<summary>By Date</summary>
+
+<details>
+<summary>2025</summary>
+
+<details>
+<summary>July (1)</summary>
+
+* [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
+
+</details>
+
+</details>
+
+</details>
 <!-- index ends -->
