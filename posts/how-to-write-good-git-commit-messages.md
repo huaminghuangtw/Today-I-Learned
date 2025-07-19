@@ -1,7 +1,7 @@
 ---
 title: How to write good Git commit messages
 created: 2025-07-19T10:45:21
-modified: 2025-07-19T14:25:19
+modified: 2025-07-19T15:46:32
 draft: false
 tags:
   - Today-I-Learned/git
@@ -30,7 +30,7 @@ Use the [Conventional Commits](https://www.conventionalcommits.org/) standard:
 ```
 
 * **Header/Subject** (`type` + `scope` + `description`) is _required_
-	* Keep the subject line under 72 characters
+  * Keep the subject line under 72 characters
 * **Body** and **footer** are _optional_
 
 ## Common Types
@@ -62,11 +62,11 @@ docs(readme): update setup instructions
 
 ## Helper Tools
 
-| Tool                                                                                       | What It Does                                                         | When Used                   |
-| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | --------------------------- |
-| [commitizen](https://github.com/commitizen/cz-cli)                                         | Interactive CLI that guides you through writing a commit message     | **Before** writing commits  |
-| [commitlint](https://github.com/conventional-changelog/commitlint)                         | Lints and validates commit messages to ensure they meet the standard | **After** writing commits   |
-| [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | Automatically generates changelogs from commit history               | **After** merging/releasing |
+| Tool                                                                                       | What It Does                                                                        | When It's Used              |
+| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | --------------------------- |
+| [commitizen](https://github.com/commitizen/cz-cli)                                         | Interactive CLI that guides you through writing a commit message                    | **Before** writing commits  |
+| [commitlint](https://github.com/conventional-changelog/commitlint)                         | Lints commit messages to ensure they meet the standard and enforce consistency [^1] | **After** writing commits   |
+| [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | Automatically generates changelogs from commit history                              | **After** merging/releasing |
 
 **Example workflow:**
 
@@ -78,3 +78,5 @@ docs(readme): update setup instructions
    > 💡 [To see all available command line parameters, run: `conventional-changelog --help`](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog#usage)
 
 3. Optionally, use [`standard-version`](https://github.com/conventional-changelog/standard-version) or [`release-it`](https://github.com/release-it/release-it) to bump versions and update changelogs automatically.
+
+[^1]: You can add a Git hook ([`commit-msg`](https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks)) to validate your commit messages: `npx commitlint --edit $1`
