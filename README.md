@@ -16,7 +16,7 @@ Learning is a [lifelong journey](https://hbr.org/2017/02/lifelong-learning-is-go
 You can also read these TILs online at [huami.ng/til](https://huami.ng/til). If you found this project helpful, consider supporting my effort by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
 
 <!-- index starts -->
-**Total TILs: 3**
+![Total TILs](https://img.shields.io/badge/Total%20TILs-3-blue)
 
 ## Recent TILs
 
