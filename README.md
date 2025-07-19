@@ -1,6 +1,6 @@
 ---
 created: 2025-07-16T14:41:25
-modified: 2025-07-19T15:46:53
+modified: 2025-07-19T15:52:51
 ---
 
 # Today I Learned
@@ -16,7 +16,7 @@ Learning is a [lifelong journey](https://hbr.org/2017/02/lifelong-learning-is-go
 You can also read these TILs online at [huami.ng/til](https://huami.ng/til). If you found this project helpful, consider supporting my effort by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
 
 <!-- index starts -->
-![Total TILs](https://img.shields.io/badge/Total%20TILs-3-blue)
+![Total TILs](https://img.shields.io/badge/Total%20TILs-3-blue?style=for-the-badge)
 
 ## Recent TILs
 
