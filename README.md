@@ -11,7 +11,7 @@ This is a micro-blog of concise write-ups capturing something new I learn each d
 
 > _“The only true wisdom is in knowing you know nothing.” — Socrates_
 
-Learning is a [lifelong journey](https://hbr.org/2017/02/lifelong-learning-is-good-for-your-health-your-wallet-and-your-social-life). School lays the foundation, but true education starts when you step beyond the classroom. Albert Einstein once said, “Education is what remains after one has forgotten everything he learned in school.” This repository celebrates curiosity and serves as a reminder to stay humble and embrace a [beginner’s mindset](https://en.wikipedia.org/wiki/Shoshin).
+Learning is a [lifelong journey](https://hbr.org/2017/02/lifelong-learning-is-good-for-your-health-your-wallet-and-your-social-life). School lays the foundation, but true education starts when you step beyond the classroom. Albert Einstein once said, “Education is what remains after one has forgotten everything he learned in school.” This is a space to celebrate curiosity and a reminder to stay humble and embrace the [beginner’s mindset](https://en.wikipedia.org/wiki/Shoshin).
 
 You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If you found this project helpful, consider supporting my effort by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
 
