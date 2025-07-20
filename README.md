@@ -1,6 +1,6 @@
 ---
 created: 2025-07-16T14:41:25
-modified: 2025-07-20T10:09:34
+modified: 2025-07-20T10:21:36
 ---
 
 # Today I Learned
@@ -18,7 +18,7 @@ You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If y
 ---
 
 <!-- index starts -->
-![Total TILs](https://img.shields.io/badge/Total%20TILs-4-blue?style=for-the-badge)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-4-blue?style=for-the-badge)](posts/)
 
 ## Recent TILs
 
@@ -96,10 +96,8 @@ You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If y
 
 &copy; 2025 Hua-Ming Huang
 
-This repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+This repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" aria-hidden="true" style="height:1em;display:inline;vertical-align:middle;" />
-
-<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" aria-hidden="true" style="height:1em;display:inline;vertical-align:middle;" />
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [^1]: Inspired by [jbranchaud/til](https://github.com/jbranchaud/til), [Learn in Public by swyx](https://www.swyx.io/learn-in-public), and [7 Habits of Highly Effective Software Engineers](https://makingsmallercircles.com/articles/7-habits-of-highly-effective-software-engineers).
