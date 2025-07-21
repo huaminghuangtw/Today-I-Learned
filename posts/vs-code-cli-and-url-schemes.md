@@ -2,7 +2,7 @@
 title: VS Code CLI and URL Schemes
 description: A quick reference for the most useful Visual Studio Code command-line interface (CLI) options and URL schemes.
 created: 2025-07-20T07:55:03
-modified: 2025-07-20T10:03:21
+modified: 2025-07-21T14:04:43
 draft: false
 tags:
   - Today-I-Learned/cli
@@ -12,12 +12,12 @@ sources:
   - https://code.visualstudio.com/docs/configure/command-line
 ---
 
-Visual Studio Code has a powerful command-line interface (CLI) that lets you control how you launch the editor through command-line options (switches).
+Visual Studio Code has a powerful [command-line interface (CLI)](https://code.visualstudio.com/docs/configure/command-line) that lets you control how you launch the editor through command-line options (switches).
 
 ## Opening Files and Folders
 
-* **Open a file**: `code <file_path>`. You can list multiple files separated by spaces. If a file doesn't exist, it will be created.
-* **Open a folder**: `code <folder_path>`. You can specify multiple folders to create a [Multi-root Workspace](https://code.visualstudio.com/docs/editing/workspaces/multi-root-workspaces) including each folder.
+* **Open a file**: `code <file_path>`. You can list multiple files separated by spaces. If a file doesn't exist, it will be created. When opening multiple files, VS Code opens them all as tabs in a single window instance.
+* **Open a folder**: `code <folder_path>`. You can specify multiple folders separated by spaces to create a [Multi-root Workspace](https://code.visualstudio.com/docs/editing/workspaces/multi-root-workspaces) that includes each folder and allows you to manage multiple project “roots” simultaneously.
 
 ## Common CLI Options
 
