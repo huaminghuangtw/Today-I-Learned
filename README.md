@@ -1,6 +1,6 @@
 ---
 created: 2025-07-16T14:41:25
-modified: 2025-07-20T10:21:36
+modified: 2025-07-21T14:49:23
 ---
 
 # Today I Learned
@@ -18,10 +18,11 @@ You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If y
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-4-blue?style=for-the-badge)](posts/)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-5-blue?style=for-the-badge)](posts/)
 
 ## Recent TILs
 
+* **2025-07-20** - [Git Commit Messages from a File](posts/git-commit-messages-from-a-file.md)
 * **2025-07-20** - [VS Code CLI and URL Schemes](posts/vs-code-cli-and-url-schemes.md)
 * **2025-07-19** - [How to write good Git commit messages](posts/how-to-write-good-git-commit-messages.md)
 * **2025-07-17** - [YouTube URL Schemes](posts/youtube-url-schemes.md)
@@ -40,8 +41,9 @@ You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If y
 </details>
 
 <details>
-<summary>git (1)</summary>
+<summary>git (2)</summary>
 
+* [Git Commit Messages from a File](posts/git-commit-messages-from-a-file.md)
 * [How to write good Git commit messages](posts/how-to-write-good-git-commit-messages.md)
 
 </details>
@@ -78,8 +80,9 @@ You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If y
 <summary>2025</summary>
 
 <details>
-<summary>July (4)</summary>
+<summary>July (5)</summary>
 
+* [Git Commit Messages from a File](posts/git-commit-messages-from-a-file.md)
 * [VS Code CLI and URL Schemes](posts/vs-code-cli-and-url-schemes.md)
 * [How to write good Git commit messages](posts/how-to-write-good-git-commit-messages.md)
 * [YouTube URL Schemes](posts/youtube-url-schemes.md)
