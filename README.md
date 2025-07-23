@@ -1,6 +1,6 @@
 ---
 created: 2025-07-16T14:41:25
-modified: 2025-07-21T15:32:52
+modified: 2025-07-22T07:56:55
 ---
 
 # Today I Learned
@@ -99,7 +99,7 @@ You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If y
 
 &copy; 2025 Hua-Ming Huang
 
-This repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+This repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
