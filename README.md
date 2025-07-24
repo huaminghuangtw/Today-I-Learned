@@ -1,6 +1,6 @@
 ---
 created: 2025-07-16T14:41:25
-modified: 2025-07-23T14:41:49
+modified: 2025-07-23T14:59:52
 ---
 
 # Today I Learned
@@ -18,15 +18,15 @@ You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If y
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-5-blue?style=for-the-badge)](posts/)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-7-blue?style=for-the-badge)](posts/)
 
 ## Recent TILs
 
+* **2025-07-24** - [Git Reset](posts/git-reset.md)
 * **2025-07-20** - [Git Commit Messages from a File](posts/git-commit-messages-from-a-file.md)
 * **2025-07-20** - [VS Code CLI and URL Schemes](posts/vs-code-cli-and-url-schemes.md)
 * **2025-07-19** - [How to write good Git commit messages](posts/how-to-write-good-git-commit-messages.md)
 * **2025-07-17** - [YouTube URL Schemes](posts/youtube-url-schemes.md)
-* **2025-07-16** - [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
 
 ## Browse All TILs
 
@@ -41,10 +41,12 @@ You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If y
 </details>
 
 <details>
-<summary>git (2)</summary>
+<summary>git (4)</summary>
 
+* [Git Reset](posts/git-reset.md)
 * [Git Commit Messages from a File](posts/git-commit-messages-from-a-file.md)
 * [How to write good Git commit messages](posts/how-to-write-good-git-commit-messages.md)
+* [Git Tags](posts/git-tags.md)
 
 </details>
 
@@ -80,13 +82,21 @@ You can read and search these TILs at [huami.ng/til](https://huami.ng/til). If y
 <summary>2025</summary>
 
 <details>
-<summary>July (5)</summary>
+<summary>July (6)</summary>
 
+* [Git Reset](posts/git-reset.md)
 * [Git Commit Messages from a File](posts/git-commit-messages-from-a-file.md)
 * [VS Code CLI and URL Schemes](posts/vs-code-cli-and-url-schemes.md)
 * [How to write good Git commit messages](posts/how-to-write-good-git-commit-messages.md)
 * [YouTube URL Schemes](posts/youtube-url-schemes.md)
 * [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
+
+</details>
+
+<details>
+<summary>January (1)</summary>
+
+* [Git Tags](posts/git-tags.md)
 
 </details>
 
