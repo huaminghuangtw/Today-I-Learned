@@ -2,7 +2,7 @@
 title: Git Reset
 description: 
 created: 2025-07-24T05:38:30
-modified: 2025-07-24T05:49:51
+modified: 2025-07-26T14:24:21
 draft: false
 tags:
   - Today-I-Learned/git
