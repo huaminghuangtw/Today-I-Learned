@@ -1,7 +1,7 @@
 ---
 title: How to write good Git commit messages
 created: 2025-07-19T10:45:21
-modified: 2025-07-29T09:47:07
+modified: 2025-07-31T13:52:23
 draft: false
 tags:
   - Today-I-Learned/git
