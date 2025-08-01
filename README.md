@@ -1,15 +1,15 @@
 ---
 created: 2025-07-16T14:41:25
-modified: 2025-07-31T16:58:24
+modified: 2025-08-01T08:07:01
 ---
 
 # Today I Learned
 
+> _“The only true wisdom is in knowing you know nothing.” — Socrates_
+
 ## About
 
 This is a micro-blog of concise write-ups capturing something new I learn each day while building software. [^1] The goal is to document and share practical insights, technical tips, and discoveries across a variety of topics.
-
-> _“The only true wisdom is in knowing you know nothing.” — Socrates_
 
 Learning is a [lifelong journey](https://hbr.org/2017/02/lifelong-learning-is-good-for-your-health-your-wallet-and-your-social-life). School lays the foundation, but true education starts when you step beyond the classroom. Albert Einstein once said, “Education is what remains after one has forgotten everything he learned in school.” This is a space to celebrate curiosity and a reminder to stay humble and embrace the [beginner’s mindset](https://en.wikipedia.org/wiki/Shoshin).
 
