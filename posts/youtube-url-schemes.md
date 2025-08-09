@@ -2,8 +2,9 @@
 title: YouTube URL Schemes
 description: 
 created: 2025-07-17T14:15:08
-modified: 2025-07-17T16:15:33
+modified: 2025-08-09T16:16:11
 draft: false
+featured: false
 tags:
   - Today-I-Learned/url-schemes
 sources: []
