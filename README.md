@@ -1,6 +1,6 @@
 ---
 created: 2025-07-16T14:41:25
-modified: 2025-08-07T16:28:20
+modified: 2025-08-09T12:50:48
 ---
 
 # Today I Learned
@@ -20,11 +20,11 @@ Learning is a [lifelong journey](https://hbr.org/2017/02/lifelong-learning-is-go
 
 ## Recent TILs
 
-* **2025-08-07** - [快樂的能力](posts/.md)
-* **2025-07-24** - [Git Reset](posts/git-reset.md)
-* **2025-07-20** - [Git Commit Messages from a File](posts/git-commit-messages-from-a-file.md)
-* **2025-07-20** - [VS Code CLI and URL Schemes](posts/vs-code-cli-and-url-schemes.md)
-* **2025-07-19** - [How to write good Git commit messages](posts/how-to-write-good-git-commit-messages.md)
+* **2025-08-08** - [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
+* **2025-07-24** - [Git Reset](https://huami.ng/2025/07/24/git-reset)
+* **2025-07-20** - [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
+* **2025-07-20** - [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* **2025-07-19** - [How to write good Git commit messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
 
 ## Browse All TILs
 
@@ -32,49 +32,43 @@ Learning is a [lifelong journey](https://hbr.org/2017/02/lifelong-learning-is-go
 <summary>By Category</summary>
 
 <details>
-<summary> (1)</summary>
-
-* [快樂的能力](posts/.md)
-
-</details>
-
-<details>
 <summary>cli (1)</summary>
 
-* [VS Code CLI and URL Schemes](posts/vs-code-cli-and-url-schemes.md)
+* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
 
 </details>
 
 <details>
-<summary>git (4)</summary>
+<summary>git (5)</summary>
 
-* [Git Reset](posts/git-reset.md)
-* [Git Commit Messages from a File](posts/git-commit-messages-from-a-file.md)
-* [How to write good Git commit messages](posts/how-to-write-good-git-commit-messages.md)
-* [Git Tags](posts/git-tags.md)
+* [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
+* [Git Reset](https://huami.ng/2025/07/24/git-reset)
+* [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
+* [How to write good Git commit messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
+* [Git Tags](https://huami.ng/2025/01/23/git-tags)
 
 </details>
 
 <details>
 <summary>github (1)</summary>
 
-* [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
+* [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huami.ng/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
 
 </details>
 
 <details>
 <summary>url-schemes (3)</summary>
 
-* [VS Code CLI and URL Schemes](posts/vs-code-cli-and-url-schemes.md)
-* [YouTube URL Schemes](posts/youtube-url-schemes.md)
-* [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
+* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* [YouTube URL Schemes](https://huami.ng/2025/07/17/youtube-url-schemes)
+* [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huami.ng/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
 
 </details>
 
 <details>
 <summary>vs-code (1)</summary>
 
-* [VS Code CLI and URL Schemes](posts/vs-code-cli-and-url-schemes.md)
+* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
 
 </details>
 
@@ -89,26 +83,26 @@ Learning is a [lifelong journey](https://hbr.org/2017/02/lifelong-learning-is-go
 <details>
 <summary>August (1)</summary>
 
-* [快樂的能力](posts/.md)
+* [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
 
 </details>
 
 <details>
 <summary>July (6)</summary>
 
-* [Git Reset](posts/git-reset.md)
-* [Git Commit Messages from a File](posts/git-commit-messages-from-a-file.md)
-* [VS Code CLI and URL Schemes](posts/vs-code-cli-and-url-schemes.md)
-* [How to write good Git commit messages](posts/how-to-write-good-git-commit-messages.md)
-* [YouTube URL Schemes](posts/youtube-url-schemes.md)
-* [GitHub URL Schemes for Viewing, Editing, and Commit History](posts/github-url-schemes.md)
+* [Git Reset](https://huami.ng/2025/07/24/git-reset)
+* [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
+* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* [How to write good Git commit messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
+* [YouTube URL Schemes](https://huami.ng/2025/07/17/youtube-url-schemes)
+* [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huami.ng/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
 
 </details>
 
 <details>
 <summary>January (1)</summary>
 
-* [Git Tags](posts/git-tags.md)
+* [Git Tags](https://huami.ng/2025/01/23/git-tags)
 
 </details>
 
