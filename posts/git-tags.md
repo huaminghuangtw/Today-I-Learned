@@ -2,7 +2,7 @@
 title: Git Tags
 description: 
 created: 2025-01-23T18:40:57
-modified: 2025-08-09T16:15:46
+modified: 2025-08-10T14:28:42
 draft: false
 featured: false
 tags:
@@ -17,13 +17,13 @@ sources:
 
 ![7e17c6817f2c1952777d0708736f4bb3](../_attachments/7e17c6817f2c1952777d0708736f4bb3.png)
 
-### Why?
+# Why?
 
 1. Mark release snapshots (e.g., `v1.0.0`)
 2. Track significant changes
 3. Simplify version management
 
-### Types
+# Types
 
 * **Lightweight (default):**
 	* Just a name for a commit (like a branch that never moves)
@@ -31,7 +31,7 @@ sources:
 	* Checksummed, including metadata (date, tagger, message, optional GPG signature)
 	* Stored as full objects in the Git database
 
-### Cheat Sheet
+# Cheat Sheet
 
 | Command                                         | Note                                                        |
 | :---------------------------------------------- | ----------------------------------------------------------- |
