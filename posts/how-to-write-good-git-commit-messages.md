@@ -1,7 +1,7 @@
 ---
 title: How to write good Git commit messages
 created: 2025-07-19T10:45:21
-modified: 2025-08-09T16:16:01
+modified: 2025-08-10T14:28:42
 draft: false
 featured: false
 tags:
@@ -10,7 +10,7 @@ sources:
   - https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
 ---
 
-## Why?
+# Why?
 
 A clear, consistent commit message format helps:
 
@@ -18,7 +18,7 @@ A clear, consistent commit message format helps:
 2. Filter and find specific changes (e.g. documentation vs. code)
 3. Generate changelogs automatically (see below for details)
 
-## Recommended Format
+# Recommended Format
 
 Use the [Conventional Commits](https://www.conventionalcommits.org/) standard:
 
@@ -34,7 +34,7 @@ Use the [Conventional Commits](https://www.conventionalcommits.org/) standard:
   * Keep the subject line under 72 characters
 * **Body** and **footer** are _optional_
 
-## Common Types
+# Common Types
 
 | Type       | Description                                   |
 | ---------- | --------------------------------------------- |
@@ -47,7 +47,7 @@ Use the [Conventional Commits](https://www.conventionalcommits.org/) standard:
 | `test`     | Adding or updating tests                      |
 | `chore`    | Routine tasks (build, dependencies, etc.)     |
 
-## Writing Good Commit Messages
+# Writing Good Commit Messages
 
 * Use _imperative, present tense_: “Fix bug” not “Fixed bug”
 * Capitalize the subject line
@@ -61,7 +61,7 @@ fix(api): handle token refresh errors
 docs(readme): update setup instructions
 ```
 
-## Helper Tools
+# Helper Tools
 
 | Tool                                                                                       | What It Does                                                                        | When It's Used              |
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | --------------------------- |
