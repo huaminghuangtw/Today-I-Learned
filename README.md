@@ -1,6 +1,6 @@
 ---
 created: 2025-07-16T14:41:25
-modified: 2025-08-12T18:06:43
+modified: 2025-08-12T19:53:07
 ---
 
 # Today I Learned
@@ -9,7 +9,7 @@ modified: 2025-08-12T18:06:43
 
 ## About
 
-This is a micro-blog where I post one thing I learn each day about building software. These are hard-earned lessons from my struggles and frustrations—things I wish I had known earlier. The goal is to document and share my journey in public.
+This is a micro-blog where I post one thing I learn each day about building software. These are hard-earned lessons from my struggles and frustrations—things I wish I had known earlier. The goal is to document and share my journey in public. [^1]
 
 Learning is a [lifelong process](https://hbr.org/2017/02/lifelong-learning-is-good-for-your-health-your-wallet-and-your-social-life). School lays the foundation, but true education starts when you step beyond the classroom. Albert Einstein once said, “Education is what remains after one has forgotten everything he learned in school.” This is a space to embrace the [beginner’s mindset](https://en.wikipedia.org/wiki/Shoshin).
 
