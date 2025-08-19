@@ -11,15 +11,15 @@ One thing that never changes about software development is that it's always chan
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-9-blue?style=for-the-badge)](posts/)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-8-blue?style=for-the-badge)](posts/)
 
 ## Recent TILs
 
 * **2025-08-11** - [How to Minimize Distractions in VS Code](https://huami.ng/2025/08/11/how-to-minimize-distractions-in-vs-code)
 * **2025-08-08** - [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
-* **2025-07-24** - [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * **2025-07-20** - [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
 * **2025-07-20** - [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* **2025-07-19** - [How to write good Git commit messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
 
 ## Browse All TILs
 
@@ -34,10 +34,9 @@ One thing that never changes about software development is that it's always chan
 </details>
 
 <details>
-<summary>git (5)</summary>
+<summary>git (4)</summary>
 
 * [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
-* [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
 * [How to write good Git commit messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
 * [Git Tags](https://huami.ng/2025/01/23/git-tags)
@@ -85,9 +84,8 @@ One thing that never changes about software development is that it's always chan
 </details>
 
 <details>
-<summary>July (6)</summary>
+<summary>July (5)</summary>
 
-* [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
 * [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
 * [How to write good Git commit messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
