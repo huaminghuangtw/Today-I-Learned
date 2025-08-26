@@ -1,8 +1,8 @@
 ---
 title: How to write good Git commit messages
-description: 
+description:
 created: 2025-07-19T10:45:21
-modified: 2025-08-18T06:36:11
+modified: 2025-08-25T09:41:29
 draft: false
 featured: false
 tags:
@@ -10,6 +10,8 @@ tags:
 sources:
   - https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
 ---
+
+Today I learned how to write structure, easy-to-communicate commit messages in Git.
 
 # Why?
 
