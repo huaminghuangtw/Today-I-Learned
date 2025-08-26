@@ -1,8 +1,8 @@
 ---
 title: How to Minimize Distractions in VS Code
-description: 
+description:
 created: 2025-08-11T15:29:01
-modified: 2025-08-12T17:25:14
+modified: 2025-08-25T09:41:11
 draft: false
 featured: false
 tags:
@@ -12,7 +12,7 @@ sources:
   - https://stackoverflow.com/questions/50593516/colored-pixels-in-scrollbar-in-vs-code
 ---
 
-Today I found some ways to minimize distractions in VS Code.
+Today I learned how to minimize distractions in VS Code.
 
 # Use Zen Mode
 
