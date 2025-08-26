@@ -1,8 +1,8 @@
 ---
 title: YouTube URL Schemes
-description: 
+description:
 created: 2025-07-17T14:15:08
-modified: 2025-08-09T16:16:11
+modified: 2025-08-25T09:42:28
 draft: false
 featured: false
 tags:
@@ -10,7 +10,7 @@ tags:
 sources: []
 ---
 
-Understanding and customizing YouTube URL schemes can make video sharing more effective:
+Today I learned how to customize YouTube URL schemes to make video sharing more effective:
 
 1. **Watch Links**
 	* Format
