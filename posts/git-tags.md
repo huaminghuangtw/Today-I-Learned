@@ -1,8 +1,8 @@
 ---
 title: Git Tags
-description: 
+description:
 created: 2025-01-23T18:40:57
-modified: 2025-08-10T14:28:42
+modified: 2025-08-25T09:40:38
 draft: false
 featured: false
 tags:
@@ -13,7 +13,7 @@ sources:
   - https://softwareengineering.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices
 ---
 
-[Git tags](https://git-scm.com/docs/git-tag) are like bookmarks pointing to a specific _[commit](how-to-write-good-git-commit-messages.md)_. They are commonly used to mark important milestones, such as production releases.
+Today I learned that [Git tags](https://git-scm.com/docs/git-tag) are like bookmarks pointing to a specific _[commit](how-to-write-good-git-commit-messages.md)_. They are commonly used to mark important milestones, such as production releases.
 
 ![7e17c6817f2c1952777d0708736f4bb3](../_attachments/7e17c6817f2c1952777d0708736f4bb3.png)
 
