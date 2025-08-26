@@ -1,8 +1,8 @@
 ---
 title: GitHub URL Schemes for Viewing, Editing, and Commit History
-description: 
+description:
 created: 2025-07-16T12:10:42
-modified: 2025-08-09T16:15:51
+modified: 2025-08-25T09:40:47
 draft: false
 featured: false
 tags:
@@ -12,7 +12,7 @@ sources:
   - https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files
 ---
 
-GitHub provides several URL schemes for different file operations.
+Today I learned that GitHub provides several URL schemes for different file operations.
 
 1. For **viewing files**, use: [^1]
 
