@@ -2,7 +2,7 @@
 title: Git Reset
 description:
 created: 2025-07-24T05:38:30
-modified: 2025-08-19T23:22:18
+modified: 2025-08-25T10:24:50
 draft: false
 featured: false
 tags:
@@ -10,6 +10,8 @@ tags:
 sources:
   - https://git-scm.com/docs/git-reset
 ---
+
+Today I learned how to use `git reset` to undo changes in my repository.
 
 # Introduction
 
