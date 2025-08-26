@@ -2,7 +2,7 @@
 title: VS Code CLI and URL Schemes
 description: A quick reference for the most useful Visual Studio Code command-line interface (CLI) options and URL schemes.
 created: 2025-07-20T07:55:03
-modified: 2025-08-10T14:28:42
+modified: 2025-08-25T09:42:19
 draft: false
 featured: false
 tags:
@@ -13,7 +13,7 @@ sources:
   - https://code.visualstudio.com/docs/configure/command-line
 ---
 
-Visual Studio Code has a powerful [command-line interface (CLI)](https://code.visualstudio.com/docs/configure/command-line) that lets you control how you launch the editor through command-line options (switches).
+Today I learned that Visual Studio Code has a powerful [command-line interface (CLI)](https://code.visualstudio.com/docs/configure/command-line) that lets you control how you launch the editor through command-line options (switches).
 
 # Opening Files and Folders
 
