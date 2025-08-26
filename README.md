@@ -41,7 +41,7 @@ One thing that never changes about software development is that it's always chan
 * [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
 * [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
-* [How to write good Git commit messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
+* [How to Write Good Git Commit Messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
 * [Git Tags](https://huami.ng/2025/01/23/git-tags)
 
 </details>
@@ -94,7 +94,7 @@ One thing that never changes about software development is that it's always chan
 * [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
 * [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
-* [How to write good Git commit messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
+* [How to Write Good Git Commit Messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
 * [YouTube URL Schemes](https://huami.ng/2025/07/17/youtube-url-schemes)
 * [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huami.ng/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
 
