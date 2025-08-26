@@ -1,3 +1,7 @@
+---
+created: 2025-07-17T16:56:15
+modified: 2025-08-26T19:55:44
+---
 # Today I Learned
 
 > _“The only true wisdom is in knowing you know nothing.” — Socrates_
@@ -11,20 +15,27 @@ One thing that never changes about software development is that it's always chan
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-11-blue?style=for-the-badge)](posts/)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-13-blue?style=for-the-badge)](posts/)
 
 ## Recent TILs
 
+* **2025-08-25** - [How to Remove Markdown Frontmatter Programmatically?](https://huami.ng/2025/08/25/how-to-remove-markdown-frontmatter-programmatically)
+* **2025-08-25** - [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huami.ng/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
 * **2025-08-23** - [Crontab & Cronjob](https://huami.ng/2025/08/23/crontab-cronjob)
+* **2025-08-22** - [Temporarily Ignore Local Changes to a Tracked File in Git](https://huami.ng/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
 * **2025-08-11** - [How to Minimize Distractions in VS Code](https://huami.ng/2025/08/11/how-to-minimize-distractions-in-vs-code)
-* **2025-08-08** - [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
-* **2025-07-24** - [Git Reset](https://huami.ng/2025/07/24/git-reset)
-* **2025-07-24** - [Git Reset](https://huami.ng/2025/07/24/git-reset)
 
 ## Browse All TILs
 
 <details>
 <summary>By Category</summary>
+
+<details>
+<summary>No tags (1)</summary>
+
+* [How to Remove Markdown Frontmatter Programmatically?](https://huami.ng/2025/08/25/how-to-remove-markdown-frontmatter-programmatically)
+
+</details>
 
 <details>
 <summary>cli (1)</summary>
@@ -34,10 +45,11 @@ One thing that never changes about software development is that it's always chan
 </details>
 
 <details>
-<summary>git (6)</summary>
+<summary>git (7)</summary>
 
+* [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huami.ng/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
+* [Temporarily Ignore Local Changes to a Tracked File in Git](https://huami.ng/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
 * [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
-* [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
 * [How to write good Git commit messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
@@ -85,18 +97,20 @@ One thing that never changes about software development is that it's always chan
 <summary>2025</summary>
 
 <details>
-<summary>August (3)</summary>
+<summary>August (6)</summary>
 
+* [How to Remove Markdown Frontmatter Programmatically?](https://huami.ng/2025/08/25/how-to-remove-markdown-frontmatter-programmatically)
+* [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huami.ng/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
 * [Crontab & Cronjob](https://huami.ng/2025/08/23/crontab-cronjob)
+* [Temporarily Ignore Local Changes to a Tracked File in Git](https://huami.ng/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
 * [How to Minimize Distractions in VS Code](https://huami.ng/2025/08/11/how-to-minimize-distractions-in-vs-code)
 * [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
 
 </details>
 
 <details>
-<summary>July (7)</summary>
+<summary>July (6)</summary>
 
-* [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
 * [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
