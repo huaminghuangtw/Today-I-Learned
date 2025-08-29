@@ -2,7 +2,7 @@
 title: Temporarily Ignore Local Changes to a Tracked File in Git
 description:
 created: 2025-08-22T09:45:40
-modified: 2025-08-25T09:52:01
+modified: 2025-08-29T08:30:45
 draft: false
 featured: false
 tags:
@@ -17,7 +17,7 @@ Today I learned that you can tell Git to temporarily ignore changes to a tracked
 git update-index --assume-unchanged <file>
 ```
 
-After this, Git won't show changes to the file in `git status`, `git add`, or `git commit`.
+After this, Git won’t show changes to the file in `git status`, `git add`, or `git commit`.
 
 To start tracking changes again:
 
