@@ -2,7 +2,7 @@
 title: How to Write Good Git Commit Messages
 description:
 created: 2025-07-19T10:45:21
-modified: 2025-08-26T20:09:40
+modified: 2025-08-29T08:30:45
 draft: false
 featured: false
 tags:
@@ -66,7 +66,7 @@ docs(readme): update setup instructions
 
 # Helper Tools
 
-| Tool                                                                                       | What It Does                                                                        | When It's Used              |
+| Tool                                                                                       | What It Does                                                                        | When It’s Used              |
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | --------------------------- |
 | [commitizen](https://github.com/commitizen/cz-cli)                                         | Interactive CLI that guides you through writing a commit message                    | **Before** writing commits  |
 | [commitlint](https://github.com/conventional-changelog/commitlint)                         | Lints commit messages to ensure they meet the standard and enforce consistency [^1] | **After** writing commits   |
