@@ -2,7 +2,7 @@
 title: VS Code CLI and URL Schemes
 description: A quick reference for the most useful Visual Studio Code command-line interface (CLI) options and URL schemes.
 created: 2025-07-20T07:55:03
-modified: 2025-08-25T09:42:19
+modified: 2025-08-29T08:30:45
 draft: false
 featured: false
 tags:
@@ -17,7 +17,7 @@ Today I learned that Visual Studio Code has a powerful [command-line interface (
 
 # Opening Files and Folders
 
-* **Open a file**: `code <file_path>`. You can list multiple files separated by spaces. If a file doesn't exist, it will be created. When opening multiple files, VS Code opens them all as tabs in a single window instance.
+* **Open a file**: `code <file_path>`. You can list multiple files separated by spaces. If a file doesn’t exist, it will be created. When opening multiple files, VS Code opens them all as tabs in a single window instance.
 * **Open a folder**: `code <folder_path>`. You can specify multiple folders separated by spaces to create a [Multi-root Workspace](https://code.visualstudio.com/docs/editing/workspaces/multi-root-workspaces) that includes each folder and allows you to manage multiple project “roots” simultaneously.
 
 # Common CLI Options
