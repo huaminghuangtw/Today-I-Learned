@@ -2,7 +2,7 @@
 title: Handling Case-Sensitive File Renames in Git
 description: Always use `git mv` for file renames in git-tracked folders.
 created: 2025-08-08T17:10:17
-modified: 2025-08-10T14:28:42
+modified: 2025-08-29T08:30:45
 draft: false
 featured: true
 tags:
@@ -12,7 +12,7 @@ sources: []
 
 # The Problem
 
-Today I ran into a frustrating Git issue that I'd never encountered before. I had renamed several image files in my Obsidian vault's `_attachments` folder, changing their extensions from uppercase (`.PNG`, `.JPG`, `.WEBP`) to lowercase (`.png`, `.jpg`, `.webp`).
+Today I ran into a frustrating Git issue that I’d never encountered before. I had renamed several image files in my Obsidian vault’s `_attachments` folder, changing their extensions from uppercase (`.PNG`, `.JPG`, `.WEBP`) to lowercase (`.png`, `.jpg`, `.webp`).
 
 However, when I tried the usual workflow:
 
@@ -22,21 +22,21 @@ git commit -m "Fix file extensions"
 git push
 ```
 
-Git didn't detect any changes, even though I could clearly see the files had different extensions on my filesystem.
+Git didn’t detect any changes, even though I could clearly see the files had different extensions on my filesystem.
 
 # The Root Cause
 
 The issue stems from macOS having a **case-insensitive filesystem** while Git is **case-sensitive**.
 
-From the filesystem's point of view, `image.PNG` and `image.png` are the same file, but Git sees them as different files.
+From the filesystem’s point of view, `image.PNG` and `image.png` are the same file, but Git sees them as different files.
 
 This caused a mismatch where Git was still tracking the old uppercase extensions in its index, even though the filesystem only showed the lowercase files.
 
-As a result, Git doesn't realize the file has been renamed because the filesystem treats both names as identical.
+As a result, Git doesn’t realize the file has been renamed because the filesystem treats both names as identical.
 
 # The Solution: `git mv`
 
-The solution is to use `git mv` to explicitly tell Git about the change. The `git mv` command renames the file both in your filesystem and Git's index, so Git can track the rename as a single operation:
+The solution is to use `git mv` to explicitly tell Git about the change. The `git mv` command renames the file both in your filesystem and Git’s index, so Git can track the rename as a single operation:
 
 ```bash
 # Instead of manually renaming files, use git mv
