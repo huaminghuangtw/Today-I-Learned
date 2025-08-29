@@ -2,7 +2,7 @@
 title: Git Commit Messages from a File
 description: You can specify a file to use as a commit message in Git. This is a clean approach for writing longer or more detailed commit messages.
 created: 2025-07-20T15:08:42
-modified: 2025-08-25T09:38:20
+modified: 2025-08-29T08:30:45
 draft: false
 featured: false
 tags:
@@ -16,7 +16,7 @@ Today I learned that there are two main ways to provide a commit message in Git:
 1. `-m <msg>` or `--message=<msg>`: This is the most common way, where you provide the message directly on the command line. You can use multiple `-m` options, and their values will be concatenated as separate paragraphs.
 2. `-F <file>` or `--file=<file>`: This option allows you to take the commit message from a given file. If you use `-` as the filename, the message is read from the standard input. This is particularly useful for multi-line messages as it avoids potential issues with shell character escaping.
 
-It's important to note that the `-m` and `-F` options are mutually exclusive. You can only use one of them for a single commit.
+It’s important to note that the `-m` and `-F` options are mutually exclusive. You can only use one of them for a single commit.
 
 ✱ Example using `-F`
 
