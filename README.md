@@ -6,7 +6,7 @@
 
 This is a micro-blog where I post one thing I learn each day about building software. These are hard-earned lessons from my struggles and frustrations—things I wish I had known earlier. The goal is to document and share my journey in public. [^1]
 
-One thing that never changes about software development is that it's always changing. There's always something new to learn, and I love that. Learning is a [lifelong process](https://hbr.org/2017/02/lifelong-learning-is-good-for-your-health-your-wallet-and-your-social-life). School lays the foundation, but true education starts when you step beyond the classroom. Albert Einstein once said, “Education is what remains after one has forgotten everything he learned in school.” This is a space to embrace the [beginner’s mindset](https://en.wikipedia.org/wiki/Shoshin).
+One thing that never changes about software development is that it’s always changing. There’s always something new to learn, and I love that. Learning is a [lifelong process](https://hbr.org/2017/02/lifelong-learning-is-good-for-your-health-your-wallet-and-your-social-life). School lays the foundation, but true education starts when you step beyond the classroom. Albert Einstein once said, “Education is what remains after one has forgotten everything he learned in school.” This is a space to embrace the [beginner’s mindset](https://en.wikipedia.org/wiki/Shoshin).
 
 ---
 
