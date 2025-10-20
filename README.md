@@ -16,7 +16,7 @@ One thing that never changes about software development is that it’s always ch
 ## Recent TILs
 
 * **2025-08-25** - [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huami.ng/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
-* **2025-08-24** - [How to Remove Markdown Frontmatter Programmatically?](https://huami.ng/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
+* **2025-08-24** - [How to Remove Markdown Frontmatter Programmatically](https://huami.ng/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
 * **2025-08-22** - [Temporarily Ignore Local Changes to a Tracked File in Git](https://huami.ng/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
 * **2025-08-11** - [How to Minimize Distractions in VS Code](https://huami.ng/2025/08/11/how-to-minimize-distractions-in-vs-code)
 * **2025-08-08** - [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
@@ -56,7 +56,7 @@ One thing that never changes about software development is that it’s always ch
 <details>
 <summary>markdown (1)</summary>
 
-* [How to Remove Markdown Frontmatter Programmatically?](https://huami.ng/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
+* [How to Remove Markdown Frontmatter Programmatically](https://huami.ng/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
 
 </details>
 
@@ -89,7 +89,7 @@ One thing that never changes about software development is that it’s always ch
 <summary>August (5)</summary>
 
 * [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huami.ng/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
-* [How to Remove Markdown Frontmatter Programmatically?](https://huami.ng/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
+* [How to Remove Markdown Frontmatter Programmatically](https://huami.ng/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
 * [Temporarily Ignore Local Changes to a Tracked File in Git](https://huami.ng/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
 * [How to Minimize Distractions in VS Code](https://huami.ng/2025/08/11/how-to-minimize-distractions-in-vs-code)
 * [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
