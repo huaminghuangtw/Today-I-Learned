@@ -2,7 +2,7 @@
 title: Git Commit Messages from a File
 description: You can specify a file to use as a commit message in Git. This is a clean approach for writing longer or more detailed commit messages.
 created: 2025-07-20T15:08:42
-modified: 2025-08-29T08:30:45
+modified: 2025-11-08T16:53:50
 draft: false
 featured: false
 tags:
@@ -22,7 +22,7 @@ It’s important to note that the `-m` and `-F` options are mutually exclusive. 
 
 1. Create a file named `commit-message.txt`:
 
-   ```txt
+	 ```txt
    feat: Add new login feature
 
    This commit introduces a new login system with email and password authentication.
@@ -31,6 +31,6 @@ It’s important to note that the `-m` and `-F` options are mutually exclusive. 
 
 2. Use the file in your commit command:
 
-   ```bash
+	 ```bash
    git commit -F commit-message.txt
    ```
