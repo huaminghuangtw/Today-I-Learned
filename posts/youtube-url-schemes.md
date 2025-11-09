@@ -2,7 +2,7 @@
 title: YouTube URL Schemes
 description:
 created: 2025-07-17T14:15:08
-modified: 2025-08-25T09:42:28
+modified: 2025-11-08T16:53:50
 draft: false
 featured: false
 tags:
@@ -29,10 +29,10 @@ Today I learned how to customize YouTube URL schemes to make video sharing more 
 				* Example: `&list=PLVELbpBnqC0qFKrWNBZupOEV6MX4xt_fM`
 			* `ab_channel` → Shows which **channel** the video is from
 				* Example: `&ab_channel=InspiringSquad`
-	  * `https://www.youtube.com/embed/<video_id>`
-		  * Use this to embed videos on websites [^1]
-		  * ⭐️ Also, this is helpful for [watching videos without any ads](https://gist.github.com/huaminghuangtw/be2eaee73f155187ca1ed0570b7268a0)!
-		  * Example: <https://www.youtube.com/watch?v=NcQQVbioeZk> → <https://www.youtube.com/embed/NcQQVbioeZk>
+		* `https://www.youtube.com/embed/<video_id>`
+			* Use this to embed videos on websites [^1]
+			* ⭐️ Also, this is helpful for [watching videos without any ads](https://gist.github.com/huaminghuangtw/be2eaee73f155187ca1ed0570b7268a0)!
+			* Example: <https://www.youtube.com/watch?v=NcQQVbioeZk> → <https://www.youtube.com/embed/NcQQVbioeZk>
 2. **Playlist Links**
 	* Format: `https://www.youtube.com/playlist?list=<playlist_id>`
 3. **Channel Links**
