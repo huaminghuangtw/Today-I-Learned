@@ -2,7 +2,7 @@
 title: Handling Case-Sensitive File Renames in Git
 description: Always use `git mv` for file renames in git-tracked folders.
 created: 2025-08-08T17:10:17
-modified: 2025-09-26T05:41:41
+modified: 2025-11-08T16:53:50
 draft: false
 featured: true
 tags:
@@ -73,18 +73,18 @@ Other approaches I could have used (but `git mv` is cleanest and simplest):
 
 1. **Configure Git to ignore case** (_not recommended_):
 
-   ```bash
+	 ```bash
    git config core.ignorecase false
    ```
 
 2. **Remove and re-add** (_loses history_):
 
-   ```bash
+	 ```bash
    git rm file.PNG
    git add file.png
    ```
 
-   In contrast, when you use `git mv`, Git properly records the change as a **rename**:
+	 In contrast, when you use `git mv`, Git properly records the change as a **rename**:
 
 	```bash
 	# Git status showed:
