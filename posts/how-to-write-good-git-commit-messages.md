@@ -2,7 +2,7 @@
 title: How to Write Good Git Commit Messages
 description:
 created: 2025-07-19T10:45:21
-modified: 2025-08-29T08:30:45
+modified: 2025-11-08T16:53:50
 draft: false
 featured: false
 tags:
@@ -34,7 +34,7 @@ Use the [Conventional Commits](https://www.conventionalcommits.org/) standard:
 ```
 
 * **Header/Subject** (`type` + `scope` + `description`) is _required_
-  * Keep the subject line under 72 characters
+	* Keep the subject line under 72 characters
 * **Body** and **footer** are _optional_
 
 # Common Types
@@ -77,9 +77,9 @@ docs(readme): update setup instructions
 1. Write commits using the [Conventional Commits](https://www.conventionalcommits.org/) format.
 2. Run `npx conventional-changelog -i CHANGELOG.md -s` to update your changelog.
 
-   > This command scans your commit history for Conventional Commits, generates a changelog, writes it to `CHANGELOG.md` (`-i CHANGELOG.md`), and updates the file in place (`-s`). The default preset is Angular, but you can omit `-p angular` for most projects.
+	 > This command scans your commit history for Conventional Commits, generates a changelog, writes it to `CHANGELOG.md` (`-i CHANGELOG.md`), and updates the file in place (`-s`). The default preset is Angular, but you can omit `-p angular` for most projects.
 
-   > 💡 [To see all available command line parameters, run: `conventional-changelog --help`](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog#usage)
+	 > 💡 [To see all available command line parameters, run: `conventional-changelog --help`](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog#usage)
 
 3. Optionally, use [`standard-version`](https://github.com/conventional-changelog/standard-version) or [`release-it`](https://github.com/release-it/release-it) to bump versions and update changelogs automatically.
 
