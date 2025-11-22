@@ -2,7 +2,7 @@
 title: How to Do Google Search Like a Boss?
 description:
 created: 2025-07-18T10:59:44
-modified: 2025-09-04T05:22:55
+modified: 2025-11-20T18:10:26
 draft: true
 featured: false
 tags:
@@ -35,7 +35,7 @@ Today I learned
 			* Searching `cars 100..200 horsepower` will return cars that fall within that horsepower range
 * **Search for a specific site:** add `site:` in front of a site or domain
 	* For example, `site:youtube.com cat videos`
-	* Or: [use Google's custom search engine (CSE)](https://www.reddit.com/r/YouShouldKnow/comments/1gu6e3v/ysk_google_allows_you_to_make_a_custom_google)
+	* Or: [use Google’s custom search engine (CSE)](https://www.reddit.com/r/YouShouldKnow/comments/1gu6e3v/ysk_google_allows_you_to_make_a_custom_google)
 * **Search for similar sites:** add `related:` in front of a site or domain
 	* For example
 		* Searching `related:amazon.com` brings up results including Walmart and Overstock
