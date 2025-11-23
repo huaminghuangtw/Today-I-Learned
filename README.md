@@ -1,3 +1,7 @@
+---
+created: 2025-07-17T16:56:15
+modified: 2025-11-23T17:10:16
+---
 # Today I Learned
 
 > _“The only true wisdom is in knowing you know nothing.” — Socrates_
