@@ -2,7 +2,7 @@
 title: Crontab & Cronjob
 description:
 created: 2025-08-23T04:23:43
-modified: 2025-08-23T05:53:28
+modified: 2025-12-17T05:48:58
 draft: true
 featured: false
 tags:
@@ -37,6 +37,14 @@ A **cron job** is an individual task (e.g., running scripts, executing commands,
 	```
 
 # Cronjob Format
+
+
+<figure>
+  <img src="https://linuxhandbook.com/content/images/2020/06/crontab-explanation.png">
+  <figcaption>
+    <sub><em>Source: <a href="https://linuxhandbook.com/crontab/">Linux Handbook</a></em></sub>
+  </figcaption>
+</figure>
 
 ```bash
 * * * * * command_to_execute
