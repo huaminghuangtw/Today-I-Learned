@@ -2,7 +2,8 @@
 title: Git Reset
 description:
 created: 2025-07-24T05:38:30
-modified: 2025-08-25T10:24:50
+modified: 2025-12-21T07:36:59
+canonicalPath: 2025/7/24/git-reset
 draft: false
 featured: false
 tags:

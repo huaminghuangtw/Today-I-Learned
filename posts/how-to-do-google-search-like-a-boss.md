@@ -2,7 +2,8 @@
 title: How to Do Google Search Like a Boss?
 description:
 created: 2025-07-18T10:59:44
-modified: 2025-11-20T18:10:26
+modified: 2025-12-21T07:36:59
+canonicalPath: 2025/7/18/how-to-do-google-search-like-a-boss
 draft: true
 featured: false
 tags:

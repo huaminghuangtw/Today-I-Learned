@@ -2,7 +2,8 @@
 title: GitHub URL Schemes for Viewing, Editing, and Commit History
 description:
 created: 2025-07-16T12:10:42
-modified: 2025-08-25T09:40:47
+modified: 2025-12-21T07:36:59
+canonicalPath: 2025/7/16/github-url-schemes-for-viewing-editing-and-commit-history
 draft: false
 featured: false
 tags:

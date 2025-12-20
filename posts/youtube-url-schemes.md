@@ -2,7 +2,8 @@
 title: YouTube URL Schemes
 description:
 created: 2025-07-17T14:15:08
-modified: 2025-11-08T16:53:50
+modified: 2025-12-21T07:36:59
+canonicalPath: 2025/7/17/youtube-url-schemes
 draft: false
 featured: false
 tags:
