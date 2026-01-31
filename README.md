@@ -11,20 +11,27 @@ One thing that never changes about software development is that it’s always ch
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-12-blue?style=for-the-badge)](posts/)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-13-blue?style=for-the-badge)](posts/)
 
 ## Recent TILs
 
+* **2026-01-31** - [Using Markdown Image Titles as Captions](https://huami.ng/2026/01/31/using-markdown-image-titles-as-captions)
 * **2025-08-25** - [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huami.ng/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
 * **2025-08-24** - [How to Remove Markdown Frontmatter Programmatically](https://huami.ng/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
 * **2025-08-22** - [Temporarily Ignore Local Changes to a Tracked File in Git](https://huami.ng/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
 * **2025-08-11** - [How to Minimize Distractions in VS Code](https://huami.ng/2025/08/11/how-to-minimize-distractions-in-vs-code)
-* **2025-08-08** - [Handling Case-Sensitive File Renames in Git](https://huami.ng/2025/08/08/handling-case-sensitive-file-renames-in-git)
 
 ## Browse All TILs
 
 <details>
 <summary>By Category</summary>
+
+<details>
+<summary>/Today-I-Learned/ (1)</summary>
+
+* [Using Markdown Image Titles as Captions](https://huami.ng/2026/01/31/using-markdown-image-titles-as-captions)
+
+</details>
 
 <details>
 <summary>cli (1)</summary>
@@ -81,6 +88,18 @@ One thing that never changes about software development is that it’s always ch
 
 <details>
 <summary>By Date</summary>
+
+<details>
+<summary>2026</summary>
+
+<details>
+<summary>January (1)</summary>
+
+* [Using Markdown Image Titles as Captions](https://huami.ng/2026/01/31/using-markdown-image-titles-as-captions)
+
+</details>
+
+</details>
 
 <details>
 <summary>2025</summary>
