@@ -2,7 +2,7 @@
 title: How to Minimize Distractions in VS Code
 description:
 created: 2025-08-11T15:29:01
-modified: 2025-12-21T07:36:59
+modified: 2026-02-03T10:46:01
 canonicalPath: 2025/8/11/how-to-minimize-distractions-in-vs-code
 draft: false
 featured: false
@@ -23,10 +23,10 @@ Today I learned how to minimize distractions in VS Code.
 
 # Hide UI Elements
 
-* Hide the sidebar (`Cmd+B`).
-* Hide the panel (`Cmd+J`).
-* Hide the status bar (`Cmd+Shift+P` → “View: Toggle Status Bar Visibility”).
-* Hide the [breadcrumbs](https://code.visualstudio.com/docs/getstarted/userinterface#_breadcrumbs) via `Cmd+Shift+P` → “View: Toggle Breadcrumbs”.
+* Hide the sidebar (`Cmd`+`B`).
+* Hide the panel (`Cmd`+`J`).
+* Hide the status bar (`Cmd`+`Shift`+`P` → “View: Toggle Status Bar Visibility”).
+* Hide the [breadcrumbs](https://code.visualstudio.com/docs/getstarted/userinterface#_breadcrumbs) via `Cmd`+`Shift`+`P` → “View: Toggle Breadcrumbs”.
 	* Alternatively, you can add this line to `settings.json`:
 
 	```json
