@@ -2,7 +2,7 @@
 title: Git Tags
 description:
 created: 2025-01-23T18:40:57
-modified: 2025-12-21T07:36:59
+modified: 2026-02-06T10:43:55
 canonicalPath: 2025/1/23/git-tags
 draft: false
 featured: false
@@ -16,7 +16,7 @@ sources:
 
 Today I learned that [Git tags](https://git-scm.com/docs/git-tag) are like bookmarks pointing to a specific _[commit](how-to-write-good-git-commit-messages.md)_. They are commonly used to mark important milestones, such as production releases.
 
-![7e17c6817f2c1952777d0708736f4bb3](../_attachments/7e17c6817f2c1952777d0708736f4bb3.png)
+![7e17c6817f2c1952777d0708736f4bb3](_attachments/7e17c6817f2c1952777d0708736f4bb3.png)
 
 # Why?
 
