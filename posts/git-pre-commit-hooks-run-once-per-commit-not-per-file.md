@@ -2,7 +2,7 @@
 title: Git Pre-Commit Hooks Run Once per Commit, Not per File
 description: Git pre-commit hooks run once per commit (not per file), so you can filter by file to keep the commits efficient.
 created: 2025-08-25T08:39:02
-modified: 2025-12-21T07:36:59
+modified: 2026-02-20T08:35:33
 canonicalPath: 2025/8/25/git-pre-commit-hooks-run-once-per-commit-not-per-file
 draft: false
 featured: false
@@ -22,7 +22,7 @@ If you want to restrict its behavior to certain files, you need to implement tha
 
 if git diff --cached --name-only | grep -q '^README.md$'; then
     if head -n1 README.md | grep -q '^---$'; then
-        sed ’1,/^---$/d' README.md > README.md.tmp && mv README.md.tmp README.md
+        sed '1,/^---$/d' README.md > README.md.tmp && mv README.md.tmp README.md
         git add README.md
     fi
 fi
