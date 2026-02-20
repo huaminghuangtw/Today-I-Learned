@@ -2,7 +2,7 @@
 title: How to Remove Markdown Frontmatter Programmatically
 description: Detect if the file starts with `---`, then strip out everything up to the next `---`.
 created: 2025-08-24T09:29:13
-modified: 2025-12-21T07:36:59
+modified: 2026-02-20T08:35:37
 canonicalPath: 2025/8/24/how-to-remove-markdown-frontmatter-programmatically
 draft: false
 featured: false
@@ -35,7 +35,7 @@ def remove_frontmatter(md_content):
 #!/bin/sh
 
 if [ -f "$file" ] && head -n1 "$file" | grep -q '^---$'; then
-	sed ’1,/^---$/d' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+	sed '1,/^---$/d' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
 fi
 ```
 
