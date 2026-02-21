@@ -2,7 +2,7 @@
 title: VS Code CLI and URL Schemes
 description: A quick reference for the most useful Visual Studio Code command-line interface (CLI) options and URL schemes.
 created: 2025-07-20T07:55:03
-modified: 2025-12-21T07:36:59
+modified: 2026-02-21T08:27:58
 canonicalPath: 2025/7/20/vs-code-cli-and-url-schemes
 draft: false
 featured: false
@@ -100,19 +100,19 @@ You can also use `vscode://` URL schemes to open folders and files.
 
 ## Open a Folder
 
-```
+```text
 vscode://file/{full path to folder}/
 ```
 
 ## Open a File
 
-```
+```text
 vscode://file/{full path to file}
 ```
 
 ## Open a File to a Specific Line and Column
 
-```
+```text
 vscode://file/{full path to file}:line:column
 ```
 
