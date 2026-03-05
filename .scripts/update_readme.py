@@ -133,7 +133,7 @@ def generate_date_section(date_groups):
 def generate_toc(posts):
     post_word = "TIL" if len(posts) == 1 else "TILs"
     return "\n\n".join([
-        f"[![Total {post_word}](https://img.shields.io/badge/Total%20{post_word}-{len(posts)}-blue?style=for-the-badge)](posts/)",
+        f"[![Total {post_word}](https://img.shields.io/badge/Total%20{post_word}-{len(posts)}-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)",
         "## Recent TILs",
         generate_recent_posts_section(posts),
         "## Browse All TILs",

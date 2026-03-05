@@ -11,7 +11,7 @@ One thing that never changes about software development is that it’s always ch
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-13-blue?style=for-the-badge)](posts/)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-13-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)
 
 ## Recent TILs
 
