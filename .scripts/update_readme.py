@@ -20,17 +20,6 @@ def parse_frontmatter(content):
         return yaml.safe_load(parts[1])
     except yaml.YAMLError:
         return {}
-
-def remove_frontmatter(md_content):
-    if md_content.startswith("---"):
-        # Split the Markdown content into three parts
-        # parts[0] = "" (before first ---)
-        # parts[1] = YAML frontmatter
-        # parts[2] = rest of the markdown
-        parts = md_content.split("---", 2)
-        if len(parts) > 2:
-            return parts[2].lstrip("\n")
-    return md_content
     
 def get_all_tils(posts_dir):
     posts = []
@@ -147,8 +136,6 @@ def update_readme(readme_path, toc_content):
 
     with open(readme_path, 'r', encoding='utf-8') as f:
         readme_content = f.read()
-
-    readme_content = remove_frontmatter(readme_content)
 
     start_pos = readme_content.find(start_marker)
     end_pos = readme_content.find(end_marker)
