@@ -1,8 +1,8 @@
 ---
 title: GitHub URL Schemes for Viewing, Editing, and Commit History
 description:
-created: 2025-07-16T12:10:42
-modified: 2025-12-21T07:36:59
+created: 2025-07-16T00:00:00
+modified: 2026-03-14T02:03:25
 canonicalPath: 2025/7/16/github-url-schemes-for-viewing-editing-and-commit-history
 draft: false
 featured: false
@@ -17,7 +17,7 @@ Today I learned that GitHub provides several URL schemes for different file oper
 
 1. For **viewing files**, use: [^1]
 
-	```
+	```text
 	https://github.com/{owner}/{repo}/blob/{branch}/{file_path}
 	```
 
@@ -25,7 +25,7 @@ Today I learned that GitHub provides several URL schemes for different file oper
 
 2. To **view raw content**, use:
 
-	```
+	```text
 	https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{file_path}
 	```
 
@@ -33,7 +33,7 @@ Today I learned that GitHub provides several URL schemes for different file oper
 
 3. When you need to **modify content**, use:
 
-	```
+	```text
 	https://github.com/{owner}/{repo}/edit/{branch}/{file_path}
 	```
 
@@ -43,7 +43,7 @@ Today I learned that GitHub provides several URL schemes for different file oper
 
 4. Finally, to explore **version history**, use:
 
-	```
+	```text
 	https://github.com/{owner}/{repo}/commits/{branch}/{file_path}
 	```
 

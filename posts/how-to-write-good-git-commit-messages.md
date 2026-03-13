@@ -1,8 +1,8 @@
 ---
 title: How to Write Good Git Commit Messages
 description:
-created: 2025-07-19T10:45:21
-modified: 2025-12-21T07:36:59
+created: 2025-07-19T00:00:00
+modified: 2026-03-14T02:03:97
 canonicalPath: 2025/7/19/how-to-write-good-git-commit-messages
 draft: false
 featured: false

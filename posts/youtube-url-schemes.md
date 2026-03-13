@@ -1,8 +1,8 @@
 ---
 title: YouTube URL Schemes
 description:
-created: 2025-07-17T14:15:08
-modified: 2025-12-21T07:36:59
+created: 2025-07-17T00:00:00
+modified: 2026-03-14T02:03:70
 canonicalPath: 2025/7/17/youtube-url-schemes
 draft: false
 featured: false
@@ -23,8 +23,8 @@ Today I learned how to customize YouTube URL schemes to make video sharing more 
 				* `&t=60` starts the video 1 minute in
 				* `&t=1m30s` starts the video 1 minute and 30 seconds in
 			* Works for both watch link types:
-				* <https://www.youtube.com/watch?v=cnQLp_DII2o&t=120>
-				* <https://youtu.be/cnQLp_DII2o?t=120>
+				* `https://www.youtube.com/watch?v=cnQLp_DII2o&t=120`
+				* `https://youtu.be/cnQLp_DII2o?t=120`
 		* The following parameters are unnecessary and can be safely stripped from URLs:
 			* `list` → Shows which **playlist** the video is from
 				* Example: `&list=PLVELbpBnqC0qFKrWNBZupOEV6MX4xt_fM`
@@ -33,7 +33,7 @@ Today I learned how to customize YouTube URL schemes to make video sharing more 
 		* `https://www.youtube.com/embed/<video_id>`
 			* Use this to embed videos on websites [^1]
 			* ⭐️ Also, this is helpful for [watching videos without any ads](https://gist.github.com/huaminghuangtw/be2eaee73f155187ca1ed0570b7268a0)!
-			* Example: <https://www.youtube.com/watch?v=NcQQVbioeZk> → <https://www.youtube.com/embed/NcQQVbioeZk>
+			* Example: `https://www.youtube.com/watch?v=NcQQVbioeZk` → `https://www.youtube.com/embed/NcQQVbioeZk`
 2. **Playlist Links**
 	* Format: `https://www.youtube.com/playlist?list=<playlist_id>`
 3. **Channel Links**

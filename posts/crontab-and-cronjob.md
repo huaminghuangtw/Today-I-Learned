@@ -1,8 +1,8 @@
 ---
 title: Crontab & Cronjob
 description:
-created: 2025-08-23T04:23:43
-modified: 2026-02-01T17:44:37
+created: 2025-08-23T00:00:00
+modified: 2026-03-14T02:03:05
 canonicalPath: 2025/8/23/crontab-and-cronjob
 draft: true
 featured: false
@@ -47,7 +47,7 @@ A **cron job** is an individual task (e.g., running scripts, executing commands,
 * * * * * command_to_execute
 - - - - -
 | | | | |
-| | | | +----- Day of the week (0–7, where 0 or 7 is Sunday, 1 is Monday, etc.)
+| | | | +----- Day of the week (0—7, where 0 or 7 is Sunday, 1 is Monday, etc.)
 | | | +------- Month (1-12)
 | | +--------- Day of the month (1-31)
 | +----------- Hour (0-23)
