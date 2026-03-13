@@ -16,10 +16,10 @@ One thing that never changes about software development is that it’s always ch
 ## Recent TILs
 
 * **2026-01-31** - [Using Markdown Image Titles as Captions](https://huami.ng/2026/01/31/using-markdown-image-titles-as-captions)
+* **2025-08-29** - [VS Code CLI and URL Schemes](https://huami.ng/2025/08/29/vs-code-cli-and-url-schemes)
 * **2025-08-25** - [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huami.ng/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
 * **2025-08-24** - [How to Remove Markdown Frontmatter Programmatically](https://huami.ng/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
 * **2025-08-22** - [Temporarily Ignore Local Changes to a Tracked File in Git](https://huami.ng/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
-* **2025-08-11** - [How to Minimize Distractions in VS Code](https://huami.ng/2025/08/11/how-to-minimize-distractions-in-vs-code)
 
 ## Browse All TILs
 
@@ -36,7 +36,7 @@ One thing that never changes about software development is that it’s always ch
 <details>
 <summary>cli (1)</summary>
 
-* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* [VS Code CLI and URL Schemes](https://huami.ng/2025/08/29/vs-code-cli-and-url-schemes)
 
 </details>
 
@@ -70,7 +70,7 @@ One thing that never changes about software development is that it’s always ch
 <details>
 <summary>url-schemes (3)</summary>
 
-* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* [VS Code CLI and URL Schemes](https://huami.ng/2025/08/29/vs-code-cli-and-url-schemes)
 * [YouTube URL Schemes](https://huami.ng/2025/07/17/youtube-url-schemes)
 * [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huami.ng/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
 
@@ -79,8 +79,8 @@ One thing that never changes about software development is that it’s always ch
 <details>
 <summary>vs-code (2)</summary>
 
+* [VS Code CLI and URL Schemes](https://huami.ng/2025/08/29/vs-code-cli-and-url-schemes)
 * [How to Minimize Distractions in VS Code](https://huami.ng/2025/08/11/how-to-minimize-distractions-in-vs-code)
-* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
 
 </details>
 
@@ -105,8 +105,9 @@ One thing that never changes about software development is that it’s always ch
 <summary>2025</summary>
 
 <details>
-<summary>August (5)</summary>
+<summary>August (6)</summary>
 
+* [VS Code CLI and URL Schemes](https://huami.ng/2025/08/29/vs-code-cli-and-url-schemes)
 * [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huami.ng/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
 * [How to Remove Markdown Frontmatter Programmatically](https://huami.ng/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
 * [Temporarily Ignore Local Changes to a Tracked File in Git](https://huami.ng/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
@@ -116,11 +117,10 @@ One thing that never changes about software development is that it’s always ch
 </details>
 
 <details>
-<summary>July (6)</summary>
+<summary>July (5)</summary>
 
 * [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
-* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
 * [How to Write Good Git Commit Messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
 * [YouTube URL Schemes](https://huami.ng/2025/07/17/youtube-url-schemes)
 * [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huami.ng/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
