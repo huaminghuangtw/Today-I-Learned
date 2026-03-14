@@ -1,8 +1,8 @@
 ---
 title: Git Pre-Commit Hooks Run Once per Commit, Not per File
 description: Git pre-commit hooks run once per commit (not per file), so you can filter by file to keep the commits efficient.
-created: 2025-08-25T00:00:00
-modified: 2026-03-14T02:03:84
+created: 2025-08-25
+modified: 2026-03-14
 canonicalPath: 2025/8/25/git-pre-commit-hooks-run-once-per-commit-not-per-file
 draft: false
 featured: false

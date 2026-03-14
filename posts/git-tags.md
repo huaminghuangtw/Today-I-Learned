@@ -1,8 +1,8 @@
 ---
 title: Git Tags
 description:
-created: 2025-01-23T00:00:00
-modified: 2026-03-14T02:03:95
+created: 2025-01-23
+modified: 2026-03-14
 canonicalPath: 2025/1/23/git-tags
 draft: false
 featured: false

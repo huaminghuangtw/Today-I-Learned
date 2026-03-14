@@ -1,8 +1,8 @@
 ---
 title: Git Commit Messages from a File
 description: You can specify a file to use as a commit message in Git. This is a clean approach for writing longer or more detailed commit messages.
-created: 2025-07-20T00:00:00
-modified: 2026-03-14T02:03:29
+created: 2025-07-20
+modified: 2026-03-14
 canonicalPath: 2025/7/20/git-commit-messages-from-a-file
 draft: false
 featured: false

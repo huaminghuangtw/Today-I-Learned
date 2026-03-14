@@ -1,8 +1,8 @@
 ---
 title: Temporarily Ignore Local Changes to a Tracked File in Git
 description:
-created: 2025-08-22T00:00:00
-modified: 2026-03-14T02:03:40
+created: 2025-08-22
+modified: 2026-03-14
 canonicalPath: 2025/8/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git
 draft: false
 featured: false

@@ -1,8 +1,8 @@
 ---
 title: VS Code CLI and URL Schemes
 description: A quick reference for the most useful Visual Studio Code command-line interface (CLI) options and URL schemes.
-created: 2025-07-20T00:00:00
-modified: 2026-03-14T02:03:25
+created: 2025-07-20
+modified: 2026-03-14
 canonicalPath: 2025/7/20/vs-code-cli-and-url-schemes
 draft: false
 featured: false

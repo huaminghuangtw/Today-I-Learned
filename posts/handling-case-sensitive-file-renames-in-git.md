@@ -1,8 +1,8 @@
 ---
 title: Handling Case-Sensitive File Renames in Git
 description: Always use `git mv` for file renames in git-tracked folders.
-created: 2025-08-08T00:00:00
-modified: 2026-03-14T02:03:62
+created: 2025-08-08
+modified: 2026-03-14
 canonicalPath: 2025/8/8/handling-case-sensitive-file-renames-in-git
 draft: false
 featured: false
