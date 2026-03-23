@@ -36,7 +36,7 @@ One thing that never changes about software development is that it’s always ch
 <details>
 <summary>cli (1)</summary>
 
-* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* [VS Code CLI & URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-url-schemes)
 
 </details>
 
@@ -70,7 +70,7 @@ One thing that never changes about software development is that it’s always ch
 <details>
 <summary>url-schemes (3)</summary>
 
-* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* [VS Code CLI & URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-url-schemes)
 * [YouTube URL Schemes](https://huami.ng/2025/07/17/youtube-url-schemes)
 * [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huami.ng/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
 
@@ -80,7 +80,7 @@ One thing that never changes about software development is that it’s always ch
 <summary>vs-code (2)</summary>
 
 * [How to Minimize Distractions in VS Code](https://huami.ng/2025/08/11/how-to-minimize-distractions-in-vs-code)
-* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* [VS Code CLI & URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-url-schemes)
 
 </details>
 
@@ -120,7 +120,7 @@ One thing that never changes about software development is that it’s always ch
 
 * [Git Reset](https://huami.ng/2025/07/24/git-reset)
 * [Git Commit Messages from a File](https://huami.ng/2025/07/20/git-commit-messages-from-a-file)
-* [VS Code CLI and URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-and-url-schemes)
+* [VS Code CLI & URL Schemes](https://huami.ng/2025/07/20/vs-code-cli-url-schemes)
 * [How to Write Good Git Commit Messages](https://huami.ng/2025/07/19/how-to-write-good-git-commit-messages)
 * [YouTube URL Schemes](https://huami.ng/2025/07/17/youtube-url-schemes)
 * [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huami.ng/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
