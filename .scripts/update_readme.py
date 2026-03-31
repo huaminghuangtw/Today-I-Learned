@@ -57,7 +57,7 @@ def get_all_tils(posts_dir):
         
         slugified_title = slugify(title)
         date_str = post_data['date'].strftime('%Y/%m/%d')
-        post_data['url'] = f"https://huami.ng/{date_str}/{slugified_title}"
+        post_data['url'] = f"https://huam.ing/{date_str}/{slugified_title}"
         
         posts.append(post_data)
     
