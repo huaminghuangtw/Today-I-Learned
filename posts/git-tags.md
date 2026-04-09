@@ -2,7 +2,7 @@
 title: Git Tags
 description:
 created: 2025-01-23
-modified: 2026-03-14
+modified: 2026-04-09
 canonicalPath: 2025/1/23/git-tags
 draft: false
 featured: false
@@ -34,18 +34,18 @@ Today I learned that [Git tags](https://git-scm.com/docs/git-tag) are like bookm
 
 # Cheat Sheet
 
-| Command                                         | Note                                                        |
-| :---------------------------------------------- | ----------------------------------------------------------- |
-| `git tag [-a] v1.0.0 [<commit_id>] [-m <msg>]`  | Create a tag (annotated with `-a` and `-m`)                     |
-| `git tag <tag_name> HEAD`                       | Tag the latest commit                                       |
-| `git checkout <tag_name>`                       | Check out a tag                                             |
-| `git tag`                                      | List all tags                                               |
-| `git tag -l "v1.1.*"`                          | Filter tags by pattern                                      |
-| `git show <tag_name>`                           | Show tag details                                            |
-| `git push origin <tag_name>`                    | Push a tag to remote (tags are not pushed by default)       |
-| `git push origin --tags`                        | Push all tags to remote                                     |
-| `git push --follow-tags`                        | Push only annotated tags                                    |
-| `git tag --delete <tag_name>`                   | Delete a local tag                                          |
-| `git tag \| xargs git tag -d`                    | Delete all local tags                                       |
-| `git push --delete origin <tag_name>`           | Delete a remote tag                                         |
-| `git tag \| xargs -n 1 git push origin --delete` | Delete all remote tags                                      |
+| Command                                          | Note                                                  |
+| :----------------------------------------------- | ----------------------------------------------------- |
+| `git tag [-a] v1.0.0 [<commit_id>] [-m <msg>]`   | Create a tag (annotated with `-a` and `-m`)           |
+| `git tag <tag_name> HEAD`                        | Tag the latest commit                                 |
+| `git checkout <tag_name>`                        | Check out a tag                                       |
+| `git tag`                                        | List all tags                                         |
+| `git tag -l "v1.1.*"`                            | Filter tags by pattern                                |
+| `git show <tag_name>`                            | Show tag details                                      |
+| `git push origin <tag_name>`                     | Push a tag to remote (tags are not pushed by default) |
+| `git push origin --tags`                         | Push all tags to remote                               |
+| `git push --follow-tags`                         | Push only annotated tags                              |
+| `git tag --delete <tag_name>`                    | Delete a local tag                                    |
+| `git tag \| xargs git tag -d`                    | Delete all local tags                                 |
+| `git push --delete origin <tag_name>`            | Delete a remote tag                                   |
+| `git tag \| xargs -n 1 git push origin --delete` | Delete all remote tags                                |
