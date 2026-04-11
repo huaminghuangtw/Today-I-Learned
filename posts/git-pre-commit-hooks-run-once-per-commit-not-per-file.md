@@ -4,7 +4,6 @@ description: Git pre-commit hooks run once per commit (not per file), so you can
 created: 2025-08-25
 modified: 2026-03-14
 canonicalPath: 2025/8/25/git-pre-commit-hooks-run-once-per-commit-not-per-file
-draft: false
 featured: false
 tags:
   - Today-I-Learned/git
