@@ -4,7 +4,6 @@ description: You can specify a file to use as a commit message in Git. This is a
 created: 2025-07-20
 modified: 2026-03-14
 canonicalPath: 2025/7/20/git-commit-messages-from-a-file
-draft: false
 featured: false
 tags:
   - Today-I-Learned/git

@@ -11,130 +11,21 @@ One thing that never changes about software development is that it’s always ch
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-13-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-0-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)
 
 ## Recent TILs
 
-* **2026-01-31** - [Using Markdown Image Titles as Captions](https://huam.ing/2026/01/31/using-markdown-image-titles-as-captions)
-* **2025-08-25** - [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huam.ing/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
-* **2025-08-24** - [How to Remove Markdown Frontmatter Programmatically](https://huam.ing/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
-* **2025-08-22** - [Temporarily Ignore Local Changes to a Tracked File in Git](https://huam.ing/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
-* **2025-08-11** - [How to Minimize Distractions in VS Code](https://huam.ing/2025/08/11/how-to-minimize-distractions-in-vs-code)
+
 
 ## Browse All TILs
 
 <details>
 <summary>By Category</summary>
 
-<details>
-<summary>/Today-I-Learned/ (1)</summary>
-
-* [Using Markdown Image Titles as Captions](https://huam.ing/2026/01/31/using-markdown-image-titles-as-captions)
-
-</details>
-
-<details>
-<summary>cli (1)</summary>
-
-* [VS Code CLI & URL Schemes](https://huam.ing/2025/07/20/vs-code-cli-url-schemes)
-
-</details>
-
-<details>
-<summary>git (7)</summary>
-
-* [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huam.ing/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
-* [Temporarily Ignore Local Changes to a Tracked File in Git](https://huam.ing/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
-* [Handling Case-Sensitive File Renames in Git](https://huam.ing/2025/08/08/handling-case-sensitive-file-renames-in-git)
-* [Git Reset](https://huam.ing/2025/07/24/git-reset)
-* [Git Commit Messages from a File](https://huam.ing/2025/07/20/git-commit-messages-from-a-file)
-* [How to Write Good Git Commit Messages](https://huam.ing/2025/07/19/how-to-write-good-git-commit-messages)
-* [Git Tags](https://huam.ing/2025/01/23/git-tags)
-
-</details>
-
-<details>
-<summary>github (1)</summary>
-
-* [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huam.ing/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
-
-</details>
-
-<details>
-<summary>markdown (1)</summary>
-
-* [How to Remove Markdown Frontmatter Programmatically](https://huam.ing/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
-
-</details>
-
-<details>
-<summary>url-schemes (3)</summary>
-
-* [VS Code CLI & URL Schemes](https://huam.ing/2025/07/20/vs-code-cli-url-schemes)
-* [YouTube URL Schemes](https://huam.ing/2025/07/17/youtube-url-schemes)
-* [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huam.ing/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
-
-</details>
-
-<details>
-<summary>vs-code (2)</summary>
-
-* [How to Minimize Distractions in VS Code](https://huam.ing/2025/08/11/how-to-minimize-distractions-in-vs-code)
-* [VS Code CLI & URL Schemes](https://huam.ing/2025/07/20/vs-code-cli-url-schemes)
-
-</details>
-
 </details>
 
 <details>
 <summary>By Date</summary>
-
-<details>
-<summary>2026</summary>
-
-<details>
-<summary>January (1)</summary>
-
-* [Using Markdown Image Titles as Captions](https://huam.ing/2026/01/31/using-markdown-image-titles-as-captions)
-
-</details>
-
-</details>
-
-<details>
-<summary>2025</summary>
-
-<details>
-<summary>August (5)</summary>
-
-* [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huam.ing/2025/08/25/git-pre-commit-hooks-run-once-per-commit-not-per-file)
-* [How to Remove Markdown Frontmatter Programmatically](https://huam.ing/2025/08/24/how-to-remove-markdown-frontmatter-programmatically)
-* [Temporarily Ignore Local Changes to a Tracked File in Git](https://huam.ing/2025/08/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
-* [How to Minimize Distractions in VS Code](https://huam.ing/2025/08/11/how-to-minimize-distractions-in-vs-code)
-* [Handling Case-Sensitive File Renames in Git](https://huam.ing/2025/08/08/handling-case-sensitive-file-renames-in-git)
-
-</details>
-
-<details>
-<summary>July (6)</summary>
-
-* [Git Reset](https://huam.ing/2025/07/24/git-reset)
-* [Git Commit Messages from a File](https://huam.ing/2025/07/20/git-commit-messages-from-a-file)
-* [VS Code CLI & URL Schemes](https://huam.ing/2025/07/20/vs-code-cli-url-schemes)
-* [How to Write Good Git Commit Messages](https://huam.ing/2025/07/19/how-to-write-good-git-commit-messages)
-* [YouTube URL Schemes](https://huam.ing/2025/07/17/youtube-url-schemes)
-* [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huam.ing/2025/07/16/github-url-schemes-for-viewing-editing-and-commit-history)
-
-</details>
-
-<details>
-<summary>January (1)</summary>
-
-* [Git Tags](https://huam.ing/2025/01/23/git-tags)
-
-</details>
-
-</details>
 
 </details>
 <!-- index ends -->
