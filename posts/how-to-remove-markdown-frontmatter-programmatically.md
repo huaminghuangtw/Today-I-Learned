@@ -4,7 +4,6 @@ description: Detect if the file starts with `---`, then strip out everything up 
 created: 2025-08-24
 modified: 2026-03-14
 canonicalPath: 2025/8/24/how-to-remove-markdown-frontmatter-programmatically
-draft: false
 featured: false
 tags:
   - Today-I-Learned/markdown
