@@ -4,7 +4,6 @@ description:
 created: 2025-08-11
 modified: 2026-03-14
 canonicalPath: 2025/8/11/how-to-minimize-distractions-in-vs-code
-draft: false
 featured: false
 tags:
   - Today-I-Learned/vs-code
