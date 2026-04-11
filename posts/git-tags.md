@@ -4,7 +4,6 @@ description:
 created: 2025-01-23
 modified: 2026-04-09
 canonicalPath: 2025/1/23/git-tags
-draft: false
 featured: false
 tags:
   - Today-I-Learned/git
