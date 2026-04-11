@@ -4,7 +4,6 @@ description: A quick reference for the most useful Visual Studio Code command-li
 created: 2025-07-20
 modified: 2026-03-23
 canonicalPath: 2025/7/20/vs-code-cli-and-url-schemes
-draft: false
 featured: false
 tags:
   - Today-I-Learned/cli
