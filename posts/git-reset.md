@@ -4,7 +4,6 @@ description:
 created: 2025-07-24
 modified: 2026-03-14
 canonicalPath: 2025/7/24/git-reset
-draft: false
 featured: false
 tags:
   - Today-I-Learned/git
