@@ -4,7 +4,6 @@ description:
 created: 2025-07-16
 modified: 2026-03-14
 canonicalPath: 2025/7/16/github-url-schemes-for-viewing-editing-and-commit-history
-draft: false
 featured: false
 tags:
   - Today-I-Learned/github
