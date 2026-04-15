@@ -1,8 +1,8 @@
 ---
-title: Manage Your Dotfiles
+title: How I Manage Dotfiles
 description:
 created: 2026-04-14
-modified: 2026-04-14
+modified: 2026-04-15
 draft: true
 featured: false
 canonicalPath: 2026/4/14/manage-your-dotfiles
@@ -35,6 +35,12 @@ For developers who spend any amount of time in the terminal, tweaking and optimi
 
 ---
 
+# What I was trying to do
+
+ Over the years, I always manage my dotfiles individually using [GitHub Gists](http://gist.github.com/), which distribute in different gists. I have always want to find a way to centralize them to make my life easier. Looking around the Internet, I have found a few solutions.
+
+## Use A Dotfile Manager
+
 There are many [tools](https://github.com/webpro/awesome-dotfiles?tab=readme-ov-file#tools) for managing your dotfiles - user-specific configuration files
 
 [dotfiles-manager · GitHub Topics · GitHub](https://github.com/topics/dotfiles-manager)
@@ -46,11 +52,11 @@ To name a few:
 3. [yadm](https://yadm.io/)
 4. [chezmoi](https://www.chezmoi.io/)
 
-# What I was trying to do
-
 These tools are additional dependencies that need to be installed prior to setting up your dotfiles. They are fairly heavyweight, so I prefer to avoid external dependencies in favor of a simpler, self-contained setup. As a bonus, there is one less thing that needs to be done when setting up new systems.
 
-Since all the dotfiles resides in $home by default, I just `git init` in my $home folder, ignore all files by default and keep a whitelist of dotfiles I want to backup in .gitignore.
+## Track $HOME Directory with Git
+
+Since all the dotfiles resides in $home by default, I can just `git init` in my $home folder, ignore all files by default and keep a whitelist of dotfiles I want to backup in .gitignore.
 
 ```git
 *    # ignores everything
@@ -58,7 +64,7 @@ Since all the dotfiles resides in $home by default, I just `git init` in my $hom
 .ssh # ignores the .ssh file or folder
 ```
 
-Tracking the home folder directly into a public git repository is [a bad practice](https://askubuntu.com/questions/1316229/is-it-bad-practice-to-git-init-in-the-home-directory-to-keep-track-of-dot-files).
+However, tracking the home folder directly into a public git repository is [a bad practice](https://askubuntu.com/questions/1316229/is-it-bad-practice-to-git-init-in-the-home-directory-to-keep-track-of-dot-files).
 
 1. Using this approach to backup dotfiles is dangerous as you mean reveal/leak your credentials (e.g., `.ssh`) on the Internet. Be careful what you push to a public repository on GitHub, e.g. .ssh, .gnupg, etc.
 
@@ -80,99 +86,244 @@ Tracking the home folder directly into a public git repository is [a bad practic
 
 	I don’t like to have the home directory git repository, simply because you run into weirdness with sub-directories of home also being git repos.
 
-# A Better Approach: Git Bare repository
+# A Better Way to Manage Dotfiles: Git Bare repository
 
-Looking around the Internet, I have found a few solutions over the years, but I settled on a very simple system several years ago which has served me very well in the time since.
+My next idea was to symlink dotfiles to a single directory and manage that folder with git. But this also felt unnecessarily complex. What a headache! Surely there would be a simpler way to do this, right?
 
-Recently, I came across [this thread in HackerNews](https://news.ycombinator.com/item?id=11070797) and it literally blew my mind. In this post, I would like to share this very elegant solution that avoids the need for any symlinking.
+But taken to its extreme where the entire root filesystem is trackable, this approach is not ideal. These are my requirements:
 
-This method does not use symlinks.
+* Any file on the machine can be added to the dotfiles repo
+* The dotfiles repo doesn’t interfere with any other git repos
 
-> Pro-Tip: stop using billion of useless third-party tools and just use bare git repo to manage dotfiles without messing with **symlinks** and other bs.
+Recently, I came across [this thread in HackerNews](https://news.ycombinator.com/item?id=11070797) and it literally blew my mind.
 
-The technique consists in storing a **Git bare repository** in a “_side_” folder (like `$HOME/.cfg` or `$HOME/.myconfig`) using a specially crafted alias so that commands are run against that repository and instead of the usual `.git` local folder, which would interfere with any other Git repositories around.
+This method uses a [git bare repository](http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/), and aliasing git commands to send them to that repo. Simple setup process? Check. Version control in git? Check. Easy installation on different machine? Check. Awesome!
 
-The normal way of doing this would be to do a `git init` in your `$HOME`, but that would totally mess up git commands if you have other repositories in your `$HOME` (also, you probably don’t want your entire `$HOME` in a git repo). So, instead, we will create a dummy folder and initialize a **bare** repository (essentially a git repo with **no** working directory) in there. All git commands will be run with our dummy as the git directory, but `$HOME` as the work directory.
+In this post, I would like to share this very elegant solution that avoids the need for any symlinking.
 
-The `--bare` flag creates a repository that doesn’t have a working directory, making it impossible to edit files and commit changes in that repository.
+## What is Git bare repository
+
+creates only a folder for git control files, which normally reside inside the .git folder within the repository.
+
+? Bare repos _only_ include commits (and some metadata). There’s nothing in process, uncommitted, or staged on a bare repo, like you might have in a working copy.
 
 ---
 
+A **bare Git repository** is a repository that does not contain a “working tree” (the actual editable project files). Instead, it contains only the versioning data and administrative files typically found within a standard `.git` folder.
+
+Key Characteristics
+
+* **No Working Directory:** You cannot directly edit, add, or commit files within a bare repository because the source code files are not checked out on disk.
+* **Structure:** While a standard repo keeps its data in a hidden `.git` folder, a bare repo places those contents (like `hooks`, `info`, `objects`, and `refs`) directly in the project root.
+* **Naming Convention:** By convention, bare repository folder names end with a `.git` suffix (e.g., `project-name.git`) to signal that it is not for local development.
+
+Primary Uses
+
+* **Central Sharing Point:** They serve as the “hub” for team collaboration. Platforms like **GitHub** and **GitLab** use bare repositories on their servers because they only need to store history and receive pushes, not provide an editing environment.
+* **Safe Remote Targets:** Git generally forbids pushing to a non-bare repository to prevent the working tree and history from becoming out of sync. Bare repos are safe for `git push` operations because there is no working tree to disrupt.
+* **Dotfile Management:** Some developers use them to manage system configuration files (dotfiles) across different machines without moving the actual files into a subfolder.
+
+Common Commands
+
+* **Create a new bare repo:**
+		`git init --bare <repo-name>.git`
+* **Clone an existing repo as bare:**
+		`git clone --bare <source-url>`
+* **Convert an existing repo to bare:**
+		Move the `.git` folder to a new location and update its configuration using **Git’s configuration documentation**.
+
+---
+
+[Reddit - Trying to understand bare repos](https://www.reddit.com/r/git/comments/6ncejs/comment/dk8ixyq)
+
+Non-bare repos have a structure like this:
+
 ```text
-mkdir $HOME/.dotfiles
-git init --bare "$HOME/.dotfiles"
-echo "alias dotfiles='/usr/local/bin/git --git-dir=\$HOME/.dotfiles/ --work-tree=\$HOME'" >> ~/.zshrc
-source ~/.zshrc
-dotfiles config --local status.showUntrackedFiles no
-dotfiles remote add origin <git-repo-url-of-your-dotfiles: e.g., git@github.com:huaminghuangtw/dotfiles.git>
-dotfiles status
+project/
+    .git/
+        <gitfiles>
+    user-file1
+    user-file2
+    …
+```
+
+The user works in the `project` folder, and the `.git` folder in there has all the revisions, branch pointers, etc., which I’ve labeled `<gitfiles>`, i.e. all of git’s junk for this particular repo.
+
+Bare repos are like this:
+
+```text
+project.git/
+    <gitfiles>
+```
+
+There is no `.git` folder, and the `.git` name has moved up as an extension onto the project name (just a convention, not guaranteed to be set up like this everywhere). Because bare repos can’t have a user, there’s no reason to cordon off the git files into their own directory, and they can all just be out in the main project folder, and the `.git` extension is like a simple signifier of this; the project folder itself is the folder full of the git junk for this repo.
+
+Bare repos are just repos that can’t have a user or working space in them. They’re just meant to be put somewhere so users can push to them and fetch/pull from them. They are basically just the `.git` folder from a regular, non-bare repo.
+
+---
+
+[What is a bare git repository? \| Jon Saints](https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/)
+
+> Well, a working repository created with `git init` is for… **working**. It is where you will actually edit, add and delete files and `git commit` to save your changes. If you are starting a project in a folder on your dev machine where you will add, edit and delete files of your project, use “git init”. Note: if you `git clone` a repository you will be given a **working** repository with the .git folder and copies of the working files for editing.
+>
+> A bare repository created with `git init --bare` is for… **sharing**. If you are collaborating with a team of developers, and need a place to share changes to a repo, then you will want to create a bare repository in centralized place where all users can push their changes (often the easy choice is github.com). Because git is a distributed version control system, no one will directly edit files in the shared centralized repository. Instead developers will clone the shared bare repo, make changes locally in their working copies of the repo, then push back to the shared bare repo to make their changes available to other users.
+>
+> Because no one ever makes edits directly to files in the shared bare repo, a working tree is not needed. In fact the working tree would just get in way and cause conflicts as users push code to the repository. This is why bare repositories exist and have no working tree.
+
+## Setup
+
+The technique consists in storing a **Git bare repository** in a “_side_” folder (like `$HOME/.cfg` or `$HOME/.dotfiles`)
+
+The normal way of doing this would be to do a `git init` in your `$HOME`, but that would totally mess up git commands if you have other repositories in your `$HOME` (also, you probably don’t want your entire `$HOME` in a git repo). So, instead, we will create a dotfiles repo with the `--bare` parameter. The `--bare` flag creates a repository that doesn’t have a working directory. All git commands will be run with our dummy as the git directory, but `$HOME` as the work directory.
+
+```text
 cd $HOME
-dotfiles add .gitconfig
+mkdir .dotfiles
+git init --bare .dotfiles
+```
+
+1. Add alias setting to shell configuration file. I use zsh so it’s `.zshrc`. For bash, it’d be `.bashrc`. We will use this alias `dotfiles` to interact with the dotfiles repos instead of the usual `git`.
+2. Reload the shell setting.
+
+```text
+echo "alias dotfiles='$(which git) --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.zshrc
+source ~/.zshrc
+```
+
+With `git-worktree`, and you can use it with any repo to create a working tree in another directory.
+
+Now you can use the full power of git directly in your home directory by using the new `dotfiles` command (rather than `git`).
+
+Maybe you were brave and typed config status already. This will list the content of your whole home directory as “untracked files”. This is not what we want. We can prevent untracked files from showing up when we call `dotfiles status`:
+
+```text
+dotfiles config --local status.showUntrackedFiles no
+```
+
+How to ignore files in a bare git repo?
+
+In a bare git repository, you cannot use a working tree, so you can’t simply create or edit a `.gitignore` file as usual. Instead, you should use the core.excludesFile configuration to specify a global ignore file for your dotfiles setup.
+
+1. Create a global ignore file (e.g., ~/.gitignore):
+
+```text
+.DS_Store
+```
+
+1. Tell your bare repo to use this file for ignores:
+
+```text
+dotfiles config --local core.excludesFile ~/.gitignore
+```
+
+Now, your bare repo will respect the ignore rules in `~/.gitignore`.
+
+## Basic usage
+
+Now git status will only check what’s being tracked. You can also play around with other commands as you wish:
+
+```text
+dotfiles status
+dotfiles log
+dotfiles diff
+```
+
+Optionally, you can use git remote repo if you want to manage the files online.
+
+```text
+dotfiles remote add origin git@github.com:username/repo.git
+```
+
+Verify with `dotfiles remote -v`
+
+Now, you can add some files, either local, in your home directory, or anywhere on the system, and commit them to the repo.
+
+```text
+dotfiles add ~/.gitconfig
 dotfiles commit -m "Add .gitconfig"
-dotfiles add .zshrc
+dotfiles add ~/.zshrc
 dotfiles commit -m "Add .zshrc"
+dotfiles add /etc/udev/rules.d/my-udev.rules
+dotfiles commit -m "Add udev rules"
+```
+
+```text
 dotfiles push
 ```
 
-No extra tooling, no symlinks, no manually copy. Files are tracked on a version control system, you can use different branches for different computers,
+No extra third-party tooling, no symlinks, no manually copy. Files are tracked on a version control system, you can use different branches for different computers,
 
 Keep configuration files in a separate directory
 
 With the use of a `bare` repository, there is no `.git` directory in your `$HOME` directory; so it does not introduce any surprises while working with `git`.
 
----
+Using git bare repositories, there is no more moving files into an initialized git repository and then creating symlinks. Now, I just add, commit and then push. Done.
 
-# Setting Up a New Machine
+## Additional Features
+
+First, I wholly depend on tig for quickly seeing the state or history of a git repo, so to invoke tig on the dotfiles repo we use this:
+
+alias dtig=‘GIT_DIR=/home/mx/.dotfiles GIT_WORK_TREE=/ tig’
+
+Second, because of the huge spread of where files are, I found myself always needing to list which files are explicitly tracked, using `dotfiles ls-files`. It’s really helpful to be able to quickly see where that config file was that you need to edit again.
+
+## Setting Up a New Machine
 
 Also, you can replicate you configuration easily on new machines. All that is required is cloning your dotfiles followed by copying or linking files. Keeping the entire home directory under version complicates installation.
 
 To set up a new machine to use your version controlled config files, all you need to do is to clone the repository on your new machine telling git that it is a bare repository:
 
-then to clone the git repository onto a new system (after git is set up), you’d run `git clone --bare {URL} $HOME/.dotfiles.git`, then you can `git --git-dir={…} --work-tree=$HOME checkout` so your dotfiles go into the correct places. Then you can reload your OS/shell/etc. as needed so the new configuration files are loaded and you should be good to go. you’ll also need to set `showUntrackedFiles` to false again.
+First, create alias to ensure that the git bare repository works without problem and reload the shell setting to use that alias.
 
 ```text
-git clone --bare <git-repo-url-of-your-dotfiles: e.g., git@github.com:huaminghuangtw/dotfiles.git> $HOME/.dotfiles
-echo "alias dotfiles='/usr/local/bin/git --git-dir=\$HOME/.dotfiles/ --work-tree=\$HOME'" >> ~/.zshrc
+echo "alias dotfiles='$(which git) --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.zshrc
 source ~/.zshrc
-!!! Move your existing dotfiles to `~/.dotfiles.backup`. If you don’t need your old dotfiles anymore, you can safely delete the `~/.dotfiles.backup` directory. !!!
-dotfiles checkout 
+```
+
+Clone the remote repo.
+
+```text
+git clone --bare git@github.com:username/repo.git $HOME/.dotfiles
+```
+
+Git will store all the repo metadata but not check out any version of the contents of the repo in that directory.
+
+Check if it works fine.
+
+```text
+dotfiles checkout
 dotfiles config --local status.showUntrackedFiles no
 ```
 
-* The step above might fail with a message like:
+If you already have configuration files with identical names, checkout will fail with a message like:
 
 ```text
-1error: The following untracked working tree files would be overwritten by checkout:
-2    .bashrc
-3    .gitignore
-4Please move or remove them before you can switch branches.
-5Aborting
+error: The following untracked working tree files would be overwritten by checkout:
+    .zshrc
+    .gitignore
+Please move or remove them before you can switch branches.
+Aborting
 ```
 
-***
+This is because your `$HOME` folder might already have some stock configuration files which would be overwritten by Git.
 
-This is because your `$HOME` folder might already have some stock configuration files which would be overwritten by Git. The solution is simple: back up the files if you care about them, remove them if you don’t care. I provide you with a possible rough shortcut to move all the offending files automatically to a backup folder:
+The solution is simple: back up the files (move them to e.g. `~/.dotfiles.backup`) if you care about them, or delete them if you don’t care.
+
+Then, re-run the check out if you had problems:
 
 ```text
-1mkdir -p .config-backup && \
-2config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
-3xargs -I{} mv {} .config-backup/{}
+config checkout
 ```
 
-* Re-run the check out if you had problems:
+Finally, prevent untracked files from showing up on `dotfiles status` as we previously did.
 
 ```text
-1config checkout
-```
-
-Or:
-
-```text
-git clone --separate-git-dir=$HOME/.dotfiles <git-repo-url-of-your-dotfiles: e.g., git@github.com:huaminghuangtw/dotfiles.git> $HOME/dotfiles-tmp
-rm -r dotfiles-tmp
+dotfiles config --local status.showUntrackedFiles no
 ```
 
 ---
+
+That’s it!
 
 This is how I manage my [dotfiles](https://github.com/huaminghuangtw/dotfiles).
 
