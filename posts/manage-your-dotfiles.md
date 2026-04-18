@@ -2,7 +2,7 @@
 title: How I Manage Dotfiles
 description:
 created: 2026-04-14
-modified: 2026-04-15
+modified: 2026-04-17
 draft: true
 featured: false
 canonicalPath: 2026/4/14/manage-your-dotfiles
@@ -58,7 +58,7 @@ These tools are additional dependencies that need to be installed prior to setti
 
 Since all the dotfiles resides in $home by default, I can just `git init` in my $home folder, ignore all files by default and keep a whitelist of dotfiles I want to backup in .gitignore.
 
-```git
+```text
 *    # ignores everything
 !.*  # un-ignores all dotfiles
 .ssh # ignores the .ssh file or folder
