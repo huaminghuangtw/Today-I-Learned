@@ -2,7 +2,7 @@
 title: Git Reset
 description:
 created: 2025-07-24
-modified: 2026-03-14
+modified: 2026-04-20
 canonicalPath: 2025/7/24/git-reset
 featured: false
 tags:
@@ -32,8 +32,8 @@ Today I learned how to use `git reset` to undo changes in my repository.
 | `--mixed` | ✅ Yes                 | ✅ Yes               | ❌ No                    |
 | `--hard`  | ✅ Yes                 | ✅ Yes               | ✅ Yes                   |
 
-> Summary:
->
-> * `--soft`: Only resets commit history, keeps staging area and working directory unchanged.
-> * `--mixed`: Resets commit history and staging area, keeps working directory unchanged.
-> * `--hard`: Resets everything, including working directory.
+# Summary
+
+* `--soft`: Only resets commit history, keeps staging area and working directory unchanged.
+* `--mixed`: Resets commit history and staging area, keeps working directory unchanged.
+* `--hard`: Resets everything, including working directory.
