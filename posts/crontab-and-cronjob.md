@@ -47,7 +47,7 @@ A **cron job** is an individual task (e.g., running scripts, executing commands,
 * * * * * command_to_execute
 - - - - -
 | | | | |
-| | | | +----- Day of the week (0—7, where 0 or 7 is Sunday, 1 is Monday, etc.)
+| | | | +----- Day of the week (0–7, where 0 or 7 is Sunday, 1 is Monday, etc.)
 | | | +------- Month (1-12)
 | | +--------- Day of the month (1-31)
 | +----------- Hour (0-23)
