@@ -2,13 +2,13 @@
 title: How to Remove Markdown Frontmatter Programmatically
 description: Detect if the file starts with `---`, then strip out everything up to the next `---`.
 created: 2025-08-24
-modified: 2026-03-14
+modified: 2026-04-30
 canonicalPath: 2025/8/24/how-to-remove-markdown-frontmatter-programmatically
 featured: false
-tags:
-  - Today-I-Learned/markdown
 sources:
   - https://stackoverflow.com/questions/28221779/how-to-remove-yaml-frontmatter-from-markdown-files
+tags:
+  - Today-I-Learned/markdown
 ---
 
 Today I learned how to strip out YAML frontmatter (--- … ---) from Markdown files using either Python or a shell script.
