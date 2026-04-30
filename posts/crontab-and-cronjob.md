@@ -2,16 +2,16 @@
 title: Crontab & Cronjob
 description:
 created: 2025-08-23
-modified: 2026-03-14
+modified: 2026-04-30
 canonicalPath: 2025/8/23/crontab-and-cronjob
 draft: true
 featured: false
+sources: []
 tags:
   - Today-I-Learned/linux
-sources: []
 ---
 
-# `crontab` v.s `cronjob`
+# `crontab` vs `cronjob`
 
 **Crontab** stands for “cron table.” It is a Unix-based utility that provides a configuration file used by the **cron daemon** (`crond`), the background process that runs scheduled, automated tasks. The crontab file stores a list of cron jobs—each line represents a separate cron job.
 
