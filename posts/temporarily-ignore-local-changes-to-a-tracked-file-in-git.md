@@ -2,13 +2,13 @@
 title: Temporarily Ignore Local Changes to a Tracked File in Git
 description:
 created: 2025-08-22
-modified: 2026-03-14
+modified: 2026-04-30
 canonicalPath: 2025/8/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git
 featured: false
-tags:
-  - Today-I-Learned/git
 sources:
   - https://git-scm.com/docs/git-update-index
+tags:
+  - Today-I-Learned/git
 ---
 
 Today I learned that you can tell Git to temporarily ignore changes to a tracked file using:
