@@ -2,13 +2,13 @@
 title: Git Reset
 description:
 created: 2025-07-24
-modified: 2026-04-20
+modified: 2026-04-30
 canonicalPath: 2025/7/24/git-reset
 featured: false
-tags:
-  - Today-I-Learned/git
 sources:
   - https://git-scm.com/docs/git-reset
+tags:
+  - Today-I-Learned/git
 ---
 
 Today I learned how to use `git reset` to undo changes in my repository.
