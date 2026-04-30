@@ -2,13 +2,13 @@
 title: How I Manage Dotfiles
 description:
 created: 2026-04-14
-modified: 2026-04-17
+modified: 2026-04-30
+canonicalPath: 2026/4/14/manage-your-dotfiles
 draft: true
 featured: false
-canonicalPath: 2026/4/14/manage-your-dotfiles
+sources: []
 tags:
   - /Today-I-Learned/
-sources: []
 ---
 
 Today I learned
