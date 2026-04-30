@@ -2,12 +2,12 @@
 title: YouTube URL Schemes
 description:
 created: 2025-07-17
-modified: 2026-03-14
+modified: 2026-04-30
 canonicalPath: 2025/7/17/youtube-url-schemes
 featured: false
+sources: []
 tags:
   - Today-I-Learned/url-schemes
-sources: []
 ---
 
 Today I learned how to customize YouTube URL schemes to make video sharing more effective:
