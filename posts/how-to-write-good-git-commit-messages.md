@@ -2,13 +2,13 @@
 title: How to Write Good Git Commit Messages
 description:
 created: 2025-07-19
-modified: 2026-03-14
+modified: 2026-04-30
 canonicalPath: 2025/7/19/how-to-write-good-git-commit-messages
 featured: false
-tags:
-  - Today-I-Learned/git
 sources:
   - https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
+tags:
+  - Today-I-Learned/git
 ---
 
 Today I learned how to write structure, easy-to-communicate commit messages in Git.
@@ -18,7 +18,7 @@ Today I learned how to write structure, easy-to-communicate commit messages in G
 A clear, consistent commit message format helps:
 
 1. Quickly understand project history
-2. Filter and find specific changes (e.g. documentation vs. code)
+2. Filter and find specific changes (e.g. documentation vs code)
 3. Generate changelogs automatically (see below for details)
 
 # Recommended Format
