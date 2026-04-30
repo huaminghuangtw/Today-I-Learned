@@ -2,15 +2,15 @@
 title: Git Tags
 description:
 created: 2025-01-23
-modified: 2026-04-09
+modified: 2026-04-30
 canonicalPath: 2025/1/23/git-tags
 featured: false
-tags:
-  - Today-I-Learned/git
 sources:
   - https://blog.daftcode.pl/how-to-become-a-master-of-git-tags-b70fbd9609d9
   - https://git-scm.com/book/en/v2/Git-Basics-Tagging
   - https://softwareengineering.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices
+tags:
+  - Today-I-Learned/git
 ---
 
 Today I learned that [Git tags](https://git-scm.com/docs/git-tag) are like bookmarks pointing to a specific _[commit](how-to-write-good-git-commit-messages.md)_. They are commonly used to mark important milestones, such as production releases.
