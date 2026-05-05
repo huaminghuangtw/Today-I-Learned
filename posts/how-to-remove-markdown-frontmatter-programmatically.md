@@ -1,6 +1,5 @@
 ---
 title: How to Remove Markdown Frontmatter Programmatically
-description: Detect if the file starts with `---`, then strip out everything up to the next `---`.
 created: 2025-08-24
 modified: 2026-04-30
 canonicalPath: 2025/8/24/how-to-remove-markdown-frontmatter-programmatically

@@ -1,6 +1,5 @@
 ---
 title: YouTube URL Schemes
-description:
 created: 2025-07-17
 modified: 2026-04-30
 canonicalPath: 2025/7/17/youtube-url-schemes

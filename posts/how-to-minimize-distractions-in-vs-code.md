@@ -1,6 +1,5 @@
 ---
 title: How to Minimize Distractions in VS Code
-description:
 created: 2025-08-11
 modified: 2026-04-30
 canonicalPath: 2025/8/11/how-to-minimize-distractions-in-vs-code

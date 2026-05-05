@@ -1,6 +1,5 @@
 ---
 title: Git Reset
-description:
 created: 2025-07-24
 modified: 2026-04-30
 canonicalPath: 2025/7/24/git-reset

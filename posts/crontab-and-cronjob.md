@@ -1,6 +1,5 @@
 ---
 title: Crontab & Cronjob
-description:
 created: 2025-08-23
 modified: 2026-04-30
 canonicalPath: 2025/8/23/crontab-and-cronjob

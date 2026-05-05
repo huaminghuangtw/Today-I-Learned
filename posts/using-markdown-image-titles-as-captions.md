@@ -1,6 +1,5 @@
 ---
 title: Using Markdown Image Titles as Captions
-description: The title attribute in Markdown images and how to transform it into captions with rehype plugins.
 created: 2026-01-31
 modified: 2026-04-30
 canonicalPath: 2026/1/31/markdown-image-titles

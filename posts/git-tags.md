@@ -1,6 +1,5 @@
 ---
 title: Git Tags
-description:
 created: 2025-01-23
 modified: 2026-04-30
 canonicalPath: 2025/1/23/git-tags

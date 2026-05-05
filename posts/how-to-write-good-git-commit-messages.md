@@ -1,6 +1,5 @@
 ---
 title: How to Write Good Git Commit Messages
-description:
 created: 2025-07-19
 modified: 2026-04-30
 canonicalPath: 2025/7/19/how-to-write-good-git-commit-messages
