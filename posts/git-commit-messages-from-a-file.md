@@ -3,7 +3,6 @@ title: Git Commit Messages from a File
 created: 2025-07-20
 modified: 2026-04-30
 canonicalPath: 2025/7/20/git-commit-messages-from-a-file
-featured: false
 sources:
   - https://git-scm.com/docs/git-commit
 tags:

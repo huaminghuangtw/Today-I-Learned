@@ -3,7 +3,6 @@ title: Git Pre-Commit Hooks Run Once per Commit, Not per File
 created: 2025-08-25
 modified: 2026-04-30
 canonicalPath: 2025/8/25/git-pre-commit-hooks-run-once-per-commit-not-per-file
-featured: false
 sources: []
 tags:
   - Today-I-Learned/git

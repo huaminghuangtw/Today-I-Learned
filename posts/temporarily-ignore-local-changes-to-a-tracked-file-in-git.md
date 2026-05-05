@@ -3,7 +3,6 @@ title: Temporarily Ignore Local Changes to a Tracked File in Git
 created: 2025-08-22
 modified: 2026-04-30
 canonicalPath: 2025/8/22/temporarily-ignore-local-changes-to-a-tracked-file-in-git
-featured: false
 sources:
   - https://git-scm.com/docs/git-update-index
 tags:

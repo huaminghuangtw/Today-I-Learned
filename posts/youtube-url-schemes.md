@@ -3,7 +3,6 @@ title: YouTube URL Schemes
 created: 2025-07-17
 modified: 2026-04-30
 canonicalPath: 2025/7/17/youtube-url-schemes
-featured: false
 sources: []
 tags:
   - Today-I-Learned/url-schemes

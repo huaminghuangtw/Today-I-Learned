@@ -3,7 +3,6 @@ title: VS Code CLI & URL Schemes
 created: 2025-07-20
 modified: 2026-04-30
 canonicalPath: 2025/7/20/vs-code-cli-and-url-schemes
-featured: false
 sources:
   - https://code.visualstudio.com/docs/configure/command-line
 tags:

@@ -3,7 +3,6 @@ title: Git Tags
 created: 2025-01-23
 modified: 2026-04-30
 canonicalPath: 2025/1/23/git-tags
-featured: false
 sources:
   - https://blog.daftcode.pl/how-to-become-a-master-of-git-tags-b70fbd9609d9
   - https://git-scm.com/book/en/v2/Git-Basics-Tagging
