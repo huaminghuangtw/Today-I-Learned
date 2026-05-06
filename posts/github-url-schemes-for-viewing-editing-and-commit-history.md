@@ -1,7 +1,7 @@
 ---
 title: GitHub URL Schemes for Viewing, Editing, and Commit History
 created: 2025-07-16
-modified: 2026-04-30
+modified: 2026-05-05
 canonicalPath: 2025/7/16/github-url-schemes-for-viewing-editing-and-commit-history
 sources:
   - https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files
@@ -36,7 +36,7 @@ Today I learned that GitHub provides several URL schemes for different file oper
 
 	Example: <https://github.com/huaminghuangtw/Today-I-Learned/edit/main/posts/github-url-schemes.md>
 
-	==Remark==: Both view and edit URLs support `#Lx` suffix for jumping to specific lines. Edit URLs require login to save changes, while view URLs are public. The key difference is that edit URLs are for proposing changes and editing content, while view URLs are for sharing lines and viewing raw files.
+	> [!TIP] Both view and edit URLs support `#Lx` suffix for jumping to specific lines. Edit URLs require login to save changes, while view URLs are public. The key difference is that edit URLs are for proposing changes and editing content, while view URLs are for sharing lines and viewing raw files.
 
 4. Finally, to explore **version history**, use:
 
