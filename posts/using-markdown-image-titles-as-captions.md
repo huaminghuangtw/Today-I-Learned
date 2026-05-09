@@ -5,8 +5,7 @@ modified: 2026-05-10
 sources:
   - https://daringfireball.net/projects/markdown/syntax#img
   - https://www.codecademy.com/resources/docs/markdown/images
-tags:
-  - /Today-I-Learned/
+tags: []
 ---
 
 Today I learned that Markdown images support a title attribute that creates hover tooltips—and with a rehype plugin, you can transform these titles into captions.
