@@ -4,8 +4,7 @@ created: 2026-04-14
 modified: 2026-05-10
 draft: true
 sources: []
-tags:
-  - /Today-I-Learned/
+tags: []
 ---
 
 Today I learned
