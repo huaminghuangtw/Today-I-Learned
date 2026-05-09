@@ -1,8 +1,7 @@
 ---
 title: Using Markdown Image Titles as Captions
 created: 2026-01-31
-modified: 2026-04-30
-canonicalPath: 2026/1/31/markdown-image-titles
+modified: 2026-05-10
 sources:
   - https://daringfireball.net/projects/markdown/syntax#img
   - https://www.codecademy.com/resources/docs/markdown/images

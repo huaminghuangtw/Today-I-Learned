@@ -1,13 +1,12 @@
 ---
 title: GitHub URL Schemes for Viewing, Editing, and Commit History
 created: 2025-07-16
-modified: 2026-05-05
-canonicalPath: 2025/7/16/github-url-schemes-for-viewing-editing-and-commit-history
+modified: 2026-05-10
 sources:
   - https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files
 tags:
-  - Today-I-Learned/github
-  - Today-I-Learned/url-schemes
+  - github
+  - url-schemes
 ---
 
 Today I learned that GitHub provides several URL schemes for different file operations.

@@ -1,12 +1,11 @@
 ---
 title: How to Write Good Git Commit Messages
 created: 2025-07-19
-modified: 2026-04-30
-canonicalPath: 2025/7/19/how-to-write-good-git-commit-messages
+modified: 2026-05-10
 sources:
   - https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
 tags:
-  - Today-I-Learned/git
+  - git
 ---
 
 Today I learned how to write structure, easy-to-communicate commit messages in Git.

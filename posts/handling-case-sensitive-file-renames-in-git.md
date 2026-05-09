@@ -1,12 +1,11 @@
 ---
 title: Handling Case-Sensitive File Renames in Git
 created: 2025-08-08
-modified: 2026-04-30
-canonicalPath: 2025/8/8/handling-case-sensitive-file-renames-in-git
+modified: 2026-05-10
 sources:
   - https://stackoverflow.com/questions/10523849/how-do-you-change-the-capitalization-of-filenames-in-git
 tags:
-  - Today-I-Learned/git
+  - git
 ---
 
 # The Problem

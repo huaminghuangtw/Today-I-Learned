@@ -1,12 +1,11 @@
 ---
 title: Crontab & Cronjob
 created: 2025-08-23
-modified: 2026-04-30
-canonicalPath: 2025/8/23/crontab-and-cronjob
+modified: 2026-05-10
 draft: true
 sources: []
 tags:
-  - Today-I-Learned/linux
+  - linux
 ---
 
 # `crontab` vs `cronjob`

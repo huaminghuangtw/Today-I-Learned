@@ -1,12 +1,11 @@
 ---
 title: Git Commit Messages from a File
 created: 2025-07-20
-modified: 2026-04-30
-canonicalPath: 2025/7/20/git-commit-messages-from-a-file
+modified: 2026-05-10
 sources:
   - https://git-scm.com/docs/git-commit
 tags:
-  - Today-I-Learned/git
+  - git
 ---
 
 Today I learned that there are two main ways to provide a commit message in Git:

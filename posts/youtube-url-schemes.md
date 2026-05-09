@@ -1,11 +1,10 @@
 ---
 title: YouTube URL Schemes
 created: 2025-07-17
-modified: 2026-04-30
-canonicalPath: 2025/7/17/youtube-url-schemes
+modified: 2026-05-10
 sources: []
 tags:
-  - Today-I-Learned/url-schemes
+  - url-schemes
 ---
 
 Today I learned how to customize YouTube URL schemes to make video sharing more effective:
