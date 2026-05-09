@@ -1,12 +1,24 @@
 ---
-title: Git Reset
-created: 2025-07-24
 modified: 2026-05-10
-sources:
-  - https://git-scm.com/docs/git-reset
-tags:
-  - git
 ---
+
+---
+
+title: Git Reset
+
+created: 2025-07-24
+
+modified: 2026-05-10
+
+sources:
+
+	- <https://git-scm.com/docs/git-reset>
+
+tags:
+
+	- git
+
+---<kbd></kbd>
 
 Today I learned how to use `git reset` to undo changes in my repository.
 
