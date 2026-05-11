@@ -32,52 +32,32 @@ def get_all_tils(posts_dir):
         if not frontmatter:
             continue
         
-        if frontmatter.get('draft', True):
+        if frontmatter.get('draft', False):
             continue
 
-        title = frontmatter.get('title', md_file.stem.replace('-', ' ').title())
-        
-        post_data = {
-            'filename': md_file.name,
-            'title': title,
-            'description': frontmatter.get('description', ''),
+        post = {
+            'title': frontmatter.get('title'),
+            'date': frontmatter.get('created'),
+            'url': f"https://huam.ing/{slugify(frontmatter.get('title'))}",
             'tags': frontmatter.get('tags', []),
-            'created': frontmatter.get('created', ''),
-            'sources': frontmatter.get('sources', []),
-            'relative_path': f'posts/{md_file.name}'
         }
-        
-        if post_data['created']:
-            try:
-                post_data['date'] = datetime.fromisoformat(str(post_data['created']))
-            except (ValueError, TypeError):
-                post_data['date'] = datetime.fromtimestamp(md_file.stat().st_mtime)
-        else:
-            post_data['date'] = datetime.fromtimestamp(md_file.stat().st_mtime)
-        
-        slugified_title = slugify(title)
-        date_str = post_data['date'].strftime('%Y/%m/%d')
-        post_data['url'] = f"https://huam.ing/{date_str}/{slugified_title}"
-        
-        posts.append(post_data)
+
+        posts.append(post)
     
     return sorted(posts, key=lambda x: x['date'], reverse=True)
 
 def generate_recent_posts_section(posts, limit=5):
     lines = []
     for post in posts[:limit]:
-        lines.append(f"* **{post['date'].strftime('%Y-%m-%d')}** - [{post['title']}]({post['url']})")
+        lines.append(f"* **{post['date'].strftime('%Y-%m-%d')}** [{post['title']}]({post['url']})")
     return "\n".join(lines)
 
 def group_posts_by_category(posts):
     categories = defaultdict(list)
     for post in posts:
-        if not post['tags']:
-            categories['No tags'].append(post)
-        else:
+        if post['tags']:
             for tag in post['tags']:
-                display_tag = tag.replace('Today-I-Learned/', '') if tag.startswith('Today-I-Learned/') else tag
-                categories[display_tag].append(post)
+                categories[tag].append(post)
     return dict(categories)
 
 def group_posts_by_date(posts):
