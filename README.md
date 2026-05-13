@@ -141,10 +141,6 @@ Contributions are welcome! Please [open an issue](https://github.com/huaminghuan
 
 ## License
 
-&copy; 2025 Hua-Ming Huang
-
-This repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+This project is licensed under the [CC0 1.0 Universal](LICENSE).
 
 [^1]: Inspired by [jbranchaud/til](https://github.com/jbranchaud/til), [Learn in Public by swyx](https://www.swyx.io/learn-in-public), and [7 Habits of Highly Effective Software Engineers](https://makingsmallercircles.com/articles/7-habits-of-highly-effective-software-engineers).
