@@ -141,6 +141,6 @@ Contributions are welcome! Please [open an issue](https://github.com/huaminghuan
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE).
+This project is released into the public domain ([CC0 1.0](LICENSE.md)).
 
 [^1]: Inspired by [jbranchaud/til](https://github.com/jbranchaud/til), [Learn in Public by swyx](https://www.swyx.io/learn-in-public), and [7 Habits of Highly Effective Software Engineers](https://makingsmallercircles.com/articles/7-habits-of-highly-effective-software-engineers).
