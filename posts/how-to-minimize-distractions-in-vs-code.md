@@ -1,7 +1,7 @@
 ---
 title: How to Minimize Distractions in VS Code
 created: 2025-08-11
-modified: 2026-05-10
+modified: 2026-06-30
 sources:
   - https://stackoverflow.com/questions/40891692/how-to-disable-or-hide-scrollbar-minimap
   - https://stackoverflow.com/questions/50593516/colored-pixels-in-scrollbar-in-vs-code
@@ -43,8 +43,27 @@ Today I learned how to minimize distractions in VS Code.
 	"editor.scrollbar.vertical": "hidden"
     ```
 
-* Hide the overview ruler:
+* Hide the [overview ruler](https://code.visualstudio.com/api/references/theme-color):
 
 	```json
-	"editor.hideCursorInOverviewRuler": true
-    ```
+	"workbench.colorCustomizations": {
+		"editor.hideCursorInOverviewRuler": true,
+		"editorOverviewRuler.border": "#0000",
+		"editorOverviewRuler.findMatchForeground": "#0000",
+		"editorOverviewRuler.rangeHighlightForeground": "#0000",
+		"editorOverviewRuler.selectionHighlightForeground": "#0000",
+		"editorOverviewRuler.wordHighlightForeground": "#0000",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+		"editorOverviewRuler.wordHighlightTextForeground": "#0000",
+		"editorOverviewRuler.modifiedForeground": "#0000",
+		"editorOverviewRuler.addedForeground": "#0000",
+		"editorOverviewRuler.deletedForeground": "#0000",
+		"editorOverviewRuler.errorForeground": "#0000",
+		"editorOverviewRuler.warningForeground": "#0000",
+		"editorOverviewRuler.infoForeground": "#0000",
+		"editorOverviewRuler.bracketMatchForeground": "#0000",
+		"editorOverviewRuler.inlineChatInserted": "#0000",
+		"editorOverviewRuler.inlineChatRemoved": "#0000",
+		"editorOverviewRuler.commentDraftForeground": "#0000",
+	},
+	```
