@@ -26,56 +26,6 @@ One thing that never changes about software development is that it’s always ch
 <details>
 <summary>By Category</summary>
 
-<details>
-<summary>cli (1)</summary>
-
-* [VS Code CLI & URL Schemes](https://huam.ing/vs-code-cli-url-schemes)
-
-</details>
-
-<details>
-<summary>git (6)</summary>
-
-* [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huam.ing/git-pre-commit-hooks-run-once-per-commit-not-per-file)
-* [Temporarily Ignore Local Changes to a Tracked File in Git](https://huam.ing/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
-* [Handling Case-Sensitive File Renames in Git](https://huam.ing/handling-case-sensitive-file-renames-in-git)
-* [Git Reset](https://huam.ing/git-reset)
-* [Git Commit Messages from a File](https://huam.ing/git-commit-messages-from-a-file)
-* [How to Write Good Git Commit Messages](https://huam.ing/how-to-write-good-git-commit-messages)
-
-</details>
-
-<details>
-<summary>github (1)</summary>
-
-* [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huam.ing/github-url-schemes-for-viewing-editing-and-commit-history)
-
-</details>
-
-<details>
-<summary>markdown (1)</summary>
-
-* [How to Remove Markdown Frontmatter Programmatically](https://huam.ing/how-to-remove-markdown-frontmatter-programmatically)
-
-</details>
-
-<details>
-<summary>url-schemes (3)</summary>
-
-* [VS Code CLI & URL Schemes](https://huam.ing/vs-code-cli-url-schemes)
-* [YouTube URL Schemes](https://huam.ing/youtube-url-schemes)
-* [GitHub URL Schemes for Viewing, Editing, and Commit History](https://huam.ing/github-url-schemes-for-viewing-editing-and-commit-history)
-
-</details>
-
-<details>
-<summary>vs-code (2)</summary>
-
-* [How to Minimize Distractions in VS Code](https://huam.ing/how-to-minimize-distractions-in-vs-code)
-* [VS Code CLI & URL Schemes](https://huam.ing/vs-code-cli-url-schemes)
-
-</details>
-
 </details>
 
 <details>
