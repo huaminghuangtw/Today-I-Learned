@@ -4,8 +4,6 @@ created: 2025-07-20
 modified: 2026-05-10
 sources:
   - https://git-scm.com/docs/git-commit
-tags:
-  - git
 ---
 
 Today I learned that there are two main ways to provide a commit message in Git:

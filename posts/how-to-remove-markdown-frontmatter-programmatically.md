@@ -4,8 +4,6 @@ created: 2025-08-24
 modified: 2026-05-10
 sources:
   - https://stackoverflow.com/questions/28221779/how-to-remove-yaml-frontmatter-from-markdown-files
-tags:
-  - markdown
 ---
 
 Today I learned how to strip out YAML frontmatter (--- … ---) from Markdown files using either Python or a shell script.

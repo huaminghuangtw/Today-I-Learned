@@ -4,9 +4,6 @@ created: 2025-07-16
 modified: 2026-05-10
 sources:
   - https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files
-tags:
-  - github
-  - url-schemes
 ---
 
 Today I learned that GitHub provides several URL schemes for different file operations.

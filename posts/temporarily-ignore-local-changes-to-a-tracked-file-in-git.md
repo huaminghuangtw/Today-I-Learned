@@ -4,8 +4,6 @@ created: 2025-08-22
 modified: 2026-05-10
 sources:
   - https://git-scm.com/docs/git-update-index
-tags:
-  - git
 ---
 
 Today I learned that you can tell Git to temporarily ignore changes to a tracked file using:

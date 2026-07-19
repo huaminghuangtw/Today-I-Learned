@@ -3,8 +3,6 @@ title: Git Pre-Commit Hooks Run Once per Commit, Not per File
 created: 2025-08-25
 modified: 2026-05-10
 sources: []
-tags:
-  - git
 ---
 
 Today I learned that Git’s `pre-commit` hook is executed/triggered **once per commit, not once per file included in the commit**.

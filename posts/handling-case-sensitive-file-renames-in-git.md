@@ -4,8 +4,6 @@ created: 2025-08-08
 modified: 2026-05-10
 sources:
   - https://stackoverflow.com/questions/10523849/how-do-you-change-the-capitalization-of-filenames-in-git
-tags:
-  - git
 ---
 
 # The Problem

@@ -4,8 +4,6 @@ created: 2025-08-23
 modified: 2026-05-10
 draft: true
 sources: []
-tags:
-  - linux
 ---
 
 # `crontab` vs `cronjob`

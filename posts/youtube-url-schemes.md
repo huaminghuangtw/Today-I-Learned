@@ -3,8 +3,6 @@ title: YouTube URL Schemes
 created: 2025-07-17
 modified: 2026-05-10
 sources: []
-tags:
-  - url-schemes
 ---
 
 Today I learned how to customize YouTube URL schemes to make video sharing more effective:

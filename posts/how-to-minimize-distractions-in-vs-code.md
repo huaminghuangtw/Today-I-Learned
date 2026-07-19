@@ -5,8 +5,6 @@ modified: 2026-06-30
 sources:
   - https://stackoverflow.com/questions/40891692/how-to-disable-or-hide-scrollbar-minimap
   - https://stackoverflow.com/questions/50593516/colored-pixels-in-scrollbar-in-vs-code
-tags:
-  - vs-code
 ---
 
 Today I learned how to minimize distractions in VS Code.

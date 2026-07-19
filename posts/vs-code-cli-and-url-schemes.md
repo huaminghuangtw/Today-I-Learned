@@ -4,10 +4,6 @@ created: 2025-07-20
 modified: 2026-05-10
 sources:
   - https://code.visualstudio.com/docs/configure/command-line
-tags:
-  - cli
-  - url-schemes
-  - vs-code
 ---
 
 Today I learned that Visual Studio Code has a powerful [command-line interface (CLI)](https://code.visualstudio.com/docs/configure/command-line) that lets you control how you launch the editor through command-line options (switches).

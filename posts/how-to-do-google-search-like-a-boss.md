@@ -4,7 +4,6 @@ created: 2025-07-18
 modified: 2026-05-10
 draft: true
 sources: []
-tags: []
 ---
 
 Today I learned
