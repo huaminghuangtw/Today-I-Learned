@@ -1,7 +1,7 @@
 ---
 title: Handling Case-Sensitive File Renames in Git
 created: 2025-08-08
-modified: 2026-05-10
+modified: 2026-07-25
 sources:
   - https://stackoverflow.com/questions/10523849/how-do-you-change-the-capitalization-of-filenames-in-git
 ---
