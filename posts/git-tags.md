@@ -1,7 +1,7 @@
 ---
 title: Git Tags
 created: 2025-01-23
-modified: 2026-05-10
+modified: 2026-07-25
 sources:
   - https://blog.daftcode.pl/how-to-become-a-master-of-git-tags-b70fbd9609d9
   - https://git-scm.com/book/en/v2/Git-Basics-Tagging
@@ -10,7 +10,7 @@ sources:
 
 Today I learned that [Git tags](https://git-scm.com/docs/git-tag) are like bookmarks pointing to a specific _[commit](how-to-write-good-git-commit-messages.md)_. They are commonly used to mark important milestones, such as production releases.
 
-![7e17c6817f2c1952777d0708736f4bb3](_attachments/7e17c6817f2c1952777d0708736f4bb3.png)
+![](https://media.huam.ing/image/7e17c6817f2c1952777d0708736f4bb3.webp)
 
 # Why?
 
