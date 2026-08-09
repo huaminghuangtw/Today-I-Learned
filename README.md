@@ -11,15 +11,15 @@ One thing that never changes about software development is that it’s always ch
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-13-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-14-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)
 
 ## Recent TILs
 
+* **2026-08-09** [Astro Fragment vs Shorthand Syntax](https://huam.ing/astro-fragment-vs-shorthand-syntax)
 * **2026-01-31** [Using Markdown Image Titles as Captions](https://huam.ing/using-markdown-image-titles-as-captions)
 * **2025-08-25** [Git Pre-Commit Hooks Run Once per Commit, Not per File](https://huam.ing/git-pre-commit-hooks-run-once-per-commit-not-per-file)
 * **2025-08-24** [How to Remove Markdown Frontmatter Programmatically](https://huam.ing/how-to-remove-markdown-frontmatter-programmatically)
 * **2025-08-22** [Temporarily Ignore Local Changes to a Tracked File in Git](https://huam.ing/temporarily-ignore-local-changes-to-a-tracked-file-in-git)
-* **2025-08-11** [How to Minimize Distractions in VS Code](https://huam.ing/how-to-minimize-distractions-in-vs-code)
 
 ## Browse All TILs
 
@@ -33,6 +33,13 @@ One thing that never changes about software development is that it’s always ch
 
 <details>
 <summary>2026</summary>
+
+<details>
+<summary>August (1)</summary>
+
+* [Astro Fragment vs Shorthand Syntax](https://huam.ing/astro-fragment-vs-shorthand-syntax)
+
+</details>
 
 <details>
 <summary>January (1)</summary>
