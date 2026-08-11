@@ -1,7 +1,7 @@
 ---
 title: Astro Fragment vs Shorthand Syntax
 created: 2026-08-09
-modified: 2026-08-09
+modified: 2026-08-11
 sources:
   - https://docs.astro.build/en/reference/astro-syntax/#fragments
 ---
@@ -17,8 +17,7 @@ Both forms compile to the same output, so the choice comes down to **what you ne
 
 # The `<Fragment />` Component
 
-* The full component, so it can accept attributes. The ones you'll actually use:
-
+* The full component, so it can accept attributes. The ones you’ll actually use:
 	* **`set:html`** — the big one. `<>` **cannot** do this:
 
 		```astro
@@ -26,7 +25,6 @@ Both forms compile to the same output, so the choice comes down to **what you ne
 		```
 
 	* `class` / `id` / `data-*` — occasionally useful to target the group with CSS or JS
-
 * More explicit and greppable than `<>` — easy to find in a codebase
 
 # Best Practice
@@ -34,5 +32,5 @@ Both forms compile to the same output, so the choice comes down to **what you ne
 | Need | Use |
 | ---- | --- |
 | Just group siblings | `<>` |
-| Inject raw HTML | `<Fragment set:html={...} />` |
-| Attach `class` / `id` / `data-*` to the group | `<Fragment class="..." />` |
+| Inject raw HTML | `<Fragment set:html={…} />` |
+| Attach `class` / `id` / `data-*` to the group | `<Fragment class="…" />` |
