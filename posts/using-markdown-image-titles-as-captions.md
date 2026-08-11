@@ -1,7 +1,7 @@
 ---
 title: Using Markdown Image Titles as Captions
 created: 2026-01-31
-modified: 2026-05-10
+modified: 2026-08-11
 sources:
   - https://daringfireball.net/projects/markdown/syntax#img
   - https://www.codecademy.com/resources/docs/markdown/images
@@ -11,10 +11,10 @@ Today I learned that Markdown images support a title attribute that creates hove
 
 ---
 
-Most people are familiar with the standard Markdown image syntax:
+You are probably familiar with the standard Markdown image syntax:
 
 ```markdown
-![Alt Text](/path/to/image.jpg)
+![alt text](image.jpg)
 ```
 
 Here, `Alt Text` serves as alternative text for accessibility—it appears when images fail to load and helps screen readers describe the image.
@@ -30,10 +30,16 @@ The path can be:
 You can add a **title attribute** as a second parameter:
 
 ```markdown
-![Alt Text](/path/to/img.jpg "image title")
+![alt text](image.jpg "This is the tooltip")
 ```
 
-This creates a tooltip that appears when users hover over the image. You can also transform these titles into captions.
+This compiles to:
+
+```html
+<img src="image.jpg" alt="alt text" title="This is the tooltip" />
+```
+
+and creates a tooltip that appears when users hover over the image.
 
 ---
 
