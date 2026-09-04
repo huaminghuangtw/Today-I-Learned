@@ -1,7 +1,7 @@
 ---
 title: YouTube URL Schemes
 created: 2025-07-17
-modified: 2026-05-10
+modified: 2026-09-03
 sources: []
 ---
 
