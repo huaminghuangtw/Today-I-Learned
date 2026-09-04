@@ -1,7 +1,7 @@
 ---
 title: How to Do Google Search Like a Boss?
 created: 2025-07-18
-modified: 2026-05-10
+modified: 2026-09-03
 draft: true
 sources: []
 ---
