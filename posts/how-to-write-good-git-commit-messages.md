@@ -1,7 +1,7 @@
 ---
 title: How to Write Good Git Commit Messages
 created: 2025-07-19
-modified: 2026-05-10
+modified: 2026-09-03
 sources:
   - https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
 ---
