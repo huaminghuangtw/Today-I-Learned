@@ -1,7 +1,7 @@
 ---
 title: GitHub URL Schemes for Viewing, Editing, and Commit History
 created: 2025-07-16
-modified: 2026-05-10
+modified: 2026-09-03
 sources:
   - https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files
 ---
