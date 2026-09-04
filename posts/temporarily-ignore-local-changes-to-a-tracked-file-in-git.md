@@ -1,7 +1,7 @@
 ---
 title: Temporarily Ignore Local Changes to a Tracked File in Git
 created: 2025-08-22
-modified: 2026-05-10
+modified: 2026-09-03
 sources:
   - https://git-scm.com/docs/git-update-index
 ---
