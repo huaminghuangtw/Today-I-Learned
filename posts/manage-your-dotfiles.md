@@ -1,7 +1,7 @@
 ---
 title: How I Manage Dotfiles
 created: 2026-04-14
-modified: 2026-05-10
+modified: 2026-09-03
 draft: true
 sources: []
 ---
