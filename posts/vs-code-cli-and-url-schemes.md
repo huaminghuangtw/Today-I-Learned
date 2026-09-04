@@ -1,7 +1,7 @@
 ---
 title: VS Code CLI & URL Schemes
 created: 2025-07-20
-modified: 2026-05-10
+modified: 2026-09-03
 sources:
   - https://code.visualstudio.com/docs/configure/command-line
 ---
