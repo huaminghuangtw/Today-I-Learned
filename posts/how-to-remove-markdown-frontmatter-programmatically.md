@@ -1,7 +1,7 @@
 ---
 title: How to Remove Markdown Frontmatter Programmatically
 created: 2025-08-24
-modified: 2026-05-10
+modified: 2026-09-03
 sources:
   - https://stackoverflow.com/questions/28221779/how-to-remove-yaml-frontmatter-from-markdown-files
 ---
