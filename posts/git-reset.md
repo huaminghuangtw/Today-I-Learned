@@ -1,7 +1,7 @@
 ---
 title: Git Reset
 created: 2025-07-24
-modified: 2026-05-10
+modified: 2026-09-03
 sources:
   - https://git-scm.com/docs/git-reset
 ---
