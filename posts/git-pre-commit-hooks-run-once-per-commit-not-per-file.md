@@ -1,7 +1,7 @@
 ---
 title: Git Pre-Commit Hooks Run Once per Commit, Not per File
 created: 2025-08-25
-modified: 2026-05-10
+modified: 2026-09-03
 sources: []
 ---
 
