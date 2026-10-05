@@ -1,7 +1,7 @@
 ---
 title: How I Manage Dotfiles
 created: 2026-04-14
-modified: 2026-09-03
+modified: 2026-10-05
 draft: true
 sources: []
 ---
@@ -48,6 +48,8 @@ To name a few:
 4. [chezmoi](https://www.chezmoi.io/)
 
 These tools are additional dependencies that need to be installed prior to setting up your dotfiles. They are fairly heavyweight, so I prefer to avoid external dependencies in favor of a simpler, self-contained setup. As a bonus, there is one less thing that needs to be done when setting up new systems.
+
+The only dependency is git.
 
 ## Track $HOME Directory with Git
 
