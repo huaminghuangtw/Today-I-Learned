@@ -1,29 +1,25 @@
 ---
 title: How to Remove Markdown Frontmatter Programmatically
 created: 2025-08-24
-modified: 2026-09-03
+modified: 2026-10-19
 sources:
   - https://stackoverflow.com/questions/28221779/how-to-remove-yaml-frontmatter-from-markdown-files
 ---
 
-Today I learned how to strip out YAML frontmatter (--- … ---) from Markdown files using either Python or a shell script.
+Today I learned how to strip out YAML frontmatter (`---` … `---`) from Markdown files using either Python or a shell script.
 
-✼ Python approach
+# The Python Approach
 
 ```python
 def remove_frontmatter(md_content):
 	if md_content.startswith("---"):
-		# Split the Markdown content into three parts
-		# parts[0] = "" (before first ---)
-		# parts[1] = YAML frontmatter
-		# parts[2] = rest of the markdown
 		parts = md_content.split("---", 2)
 		if len(parts) > 2:
 			return parts[2].lstrip("\n")
 	return md_content
 ```
 
-✼ Shell script approach
+# The Shell Script Approach
 
 ```sh
 #!/bin/sh
