@@ -1,4 +1,3 @@
-# Today I Learned
 
 > _“The only true wisdom is in knowing you know nothing.” — Socrates_
 
