@@ -1,7 +1,7 @@
 ---
 title: A Failure Is Not an Answer
 created: 2026-11-07
-modified: 2026-11-07
+modified: 2026-11-09
 draft: true
 sources: []
 ---
@@ -18,7 +18,7 @@ My bookmark thumbnail fetcher stores one answer per bookmark. Three states were 
 
 * a URL — **found** it
 * `null` — **checked**, and there is no thumbnail
-* *(no entry at all)* — **don’t know yet**, go and look next time
+* _(no entry at all)_ — **don’t know yet**, go and look next time
 
 When Google’s book API answered `429` — “too many requests, try later” — my code returned `null`. So a temporary “I couldn’t look” was written down as the permanent fact “this book has no cover”. The next run saw an answer already in the catalogue, skipped the book, and the cover never appeared.
 
@@ -38,7 +38,7 @@ The entry stays missing. Missing means “don’t know yet”. The next run asks
 
 # The Rule
 
-Before writing an empty value into a cache, ask: *did I learn this, or did I fail to learn it?*
+Before writing an empty value into a cache, ask: _did I learn this, or did I fail to learn it?_
 
 * A search that returned zero results → safe to store.
 * A timeout, a `429`, a `500`, an unplugged network → **do not store**. Leave a hole.
