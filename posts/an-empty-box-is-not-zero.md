@@ -1,14 +1,14 @@
 ---
 title: An Empty Box Is Not Zero
 created: 2026-11-06
-modified: 2026-11-06
+modified: 2026-11-09
 draft: true
 sources: []
 ---
 
-Today I learned that JavaScript turns an empty text box into the number zero, and that this quiet zero can make a filter say "yes" to something it never looked at.
+Today I learned that JavaScript turns an empty text box into the number zero, and that this quiet zero can make a filter say “yes” to something it never looked at.
 
-Think of a form with a box that asks "how many minutes?". If you leave it blank, a careful clerk says "no answer". `Number("")` is not a careful clerk. It says "zero minutes".
+Think of a form with a box that asks “how many minutes?”. If you leave it blank, a careful clerk says “no answer”. `Number("")` is not a careful clerk. It says “zero minutes”.
 
 # What Went Wrong
 
@@ -25,7 +25,7 @@ const minutes = Number(row.dataset.duration ?? 0) // Number("") === 0
 if (minutes >= 0 && minutes <= 14) return true
 ```
 
-So every book landed in "≤ 14 minutes". Picking two buckets at once returned 785 rows, all of them books, essays, movies and podcasts that have no runtime at all.
+So every book landed in “≤ 14 minutes”. Picking two buckets at once returned 785 rows, all of them books, essays, movies and podcasts that have no runtime at all.
 
 # The Fix
 
