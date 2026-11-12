@@ -1,18 +1,18 @@
 ---
-title: AppleScript's Quit Waits Until the App Is Really Gone
+title: "AppleScript’s Quit Waits Until the App Is Really Gone"
 created: 2026-11-11
 modified: 2026-11-11
 draft: true
 sources: []
 ---
 
-Today I learned that `tell application "Something" to quit` does not mean "ask it to quit and carry on" — the command does not return until the app has actually closed.
+Today I learned that `tell application "Something" to quit` does not mean “ask it to quit and carry on” — the command does not return until the app has actually closed.
 
 # The Simple Version
 
-Imagine you tell your little brother, "Time to leave the playground." One way to do it is to stand next to him and wait until he walks out of the gate. The other way is to say it and go back to your own game.
+Imagine you tell your little brother, “Time to leave the playground.” One way to do it is to stand next to him and wait until he walks out of the gate. The other way is to say it and go back to your own game.
 
-AppleScript's `quit` is the first way. Your script stops at that line and waits. `killall` is the second way. It taps the app on the shoulder and returns right away.
+AppleScript’s `quit` is the first way. Your script stops at that line and waits. `killall` is the second way. It taps the app on the shoulder and returns right away.
 
 # Why It Matters
 
@@ -22,7 +22,7 @@ I was cutting a long job into 5-minute pieces: start it, wait 5 minutes, stop it
 tell application id "com.apple.shortcuts" to quit
 ```
 
-If the app is busy — say it is in the middle of a two-hour job — it may not close until that job finishes. So the script sat on that line for two hours, and the "5-minute piece" quietly became "the whole thing". The safety net I wrote *after* that line never got a turn.
+If the app is busy — say it is in the middle of a two-hour job — it may not close until that job finishes. So the script sat on that line for two hours, and the “5-minute piece” quietly became “the whole thing”. The safety net I wrote _after_ that line never got a turn.
 
 There is a second trap: an Apple Event can time out after a couple of minutes and throw an error, so the same line can fail instead of waiting.
 
