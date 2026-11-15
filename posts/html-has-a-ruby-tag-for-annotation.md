@@ -1,13 +1,13 @@
 ---
 title: HTML Has a Ruby Tag for Annotation
 created: 2026-11-13
-modified: 2026-11-13
+modified: 2026-11-15
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS/ruby-align
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ruby
 ---
 
-Today I learned that HTML has a dedicated element for annotating a pronunciation next to a word — `<ruby>` — and it is not a tooltip, not an abbreviation, and not something you hack together with `<sup>`.
+Today I learned that HTML has a dedicated element for annotating a pronunciation next to a word — `<ruby>`.
 
 # Minimal syntax
 
