@@ -1,7 +1,7 @@
 ---
 title: A Page Should Have Only One Address
 created: 2026-11-16
-modified: 2026-11-16
+modified: 2026-11-17
 sources:
   - https://developers.cloudflare.com/workers/static-assets/routing/advanced/html-handling/
   - https://docs.astro.build/en/reference/configuration-reference/#trailingslash
@@ -13,7 +13,7 @@ Think of a house with two front doors. Same house, same family. But the postman 
 
 # Two addresses, one page
 
-[My site](https://huam.ing) serves every page as a folder with an `index.html` inside. So the page about me lives at `/about/`. But `/about` — _no slash at the end_ — also reaches it. The server answers `/about` with a small note: “the real address is `/about/`”. That note is called a **redirect**. The redirect is not broken. It is **wasted work**. Google counted them as a separate pile: X pages “with redirect”.
+[My site](https://huam.ing) served every page as a folder with an `index.html` inside. So the page about me lives at `/about/`. But `/about` — _no slash at the end_ — also reaches it. The server answers `/about` with a small note: “the real address is `/about/`”. That note is called a **redirect**. The redirect is not broken. It is **wasted work**. Google counted them as a separate pile: X pages “with redirect”.
 
 # Why it happens
 
