@@ -10,15 +10,15 @@ One thing that never changes about software development is that it’s always ch
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-20-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-19-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)
 
 ## Recent TILs
 
 * **2026-11-16** [A Page Should Have Only One Address](https://huam.ing/a-page-should-have-only-one-address)
 * **2026-11-16** [Structured Data Is a Name Tag, Not a Ranking Boost](https://huam.ing/structured-data-is-a-name-tag-not-a-ranking-boost)
 * **2026-11-13** [HTML Has a Ruby Tag for Annotation](https://huam.ing/html-has-a-ruby-tag-for-annotation)
-* **2026-10-27** [Pagefind Exact Search With Double Quotes](https://huam.ing/pagefind-exact-search-with-double-quotes)
 * **2026-10-19** [How to Put a Live Counter in a Markdown Page](https://huam.ing/how-to-put-a-live-counter-in-a-markdown-page)
+* **2026-10-14** [Using Media Fragments for Video Thumbnails on iOS Safari](https://huam.ing/using-media-fragments-for-video-thumbnails-on-ios-safari)
 
 ## Browse All TILs
 
@@ -43,9 +43,8 @@ One thing that never changes about software development is that it’s always ch
 </details>
 
 <details>
-<summary>October (3)</summary>
+<summary>October (2)</summary>
 
-* [Pagefind Exact Search With Double Quotes](https://huam.ing/pagefind-exact-search-with-double-quotes)
 * [How to Put a Live Counter in a Markdown Page](https://huam.ing/how-to-put-a-live-counter-in-a-markdown-page)
 * [Using Media Fragments for Video Thumbnails on iOS Safari](https://huam.ing/using-media-fragments-for-video-thumbnails-on-ios-safari)
 
