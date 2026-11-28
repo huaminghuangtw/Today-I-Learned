@@ -10,15 +10,15 @@ One thing that never changes about software development is that it’s always ch
 ---
 
 <!-- index starts -->
-[![Total TILs](https://img.shields.io/badge/Total%20TILs-19-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)
+[![Total TILs](https://img.shields.io/badge/Total%20TILs-21-blue?style=for-the-badge)](https://github.com/huaminghuangtw/Today-I-Learned/tree/main/posts)
 
 ## Recent TILs
 
+* **2026-11-28** [llms.txt is a map for reading, not a rule for crawling](https://huam.ing/llmstxt-is-a-map-for-reading-not-a-rule-for-crawling)
+* **2026-11-27** [px is for the screen, rem is for the reader](https://huam.ing/px-is-for-the-screen-rem-is-for-the-reader)
 * **2026-11-16** [A Page Should Have Only One Address](https://huam.ing/a-page-should-have-only-one-address)
 * **2026-11-16** [Structured Data Is a Name Tag, Not a Ranking Boost](https://huam.ing/structured-data-is-a-name-tag-not-a-ranking-boost)
 * **2026-11-13** [HTML Has a Ruby Tag for Annotation](https://huam.ing/html-has-a-ruby-tag-for-annotation)
-* **2026-10-19** [How to Put a Live Counter in a Markdown Page](https://huam.ing/how-to-put-a-live-counter-in-a-markdown-page)
-* **2026-10-14** [Using Media Fragments for Video Thumbnails on iOS Safari](https://huam.ing/using-media-fragments-for-video-thumbnails-on-ios-safari)
 
 ## Browse All TILs
 
@@ -34,8 +34,10 @@ One thing that never changes about software development is that it’s always ch
 <summary>2026</summary>
 
 <details>
-<summary>November (3)</summary>
+<summary>November (5)</summary>
 
+* [llms.txt is a map for reading, not a rule for crawling](https://huam.ing/llmstxt-is-a-map-for-reading-not-a-rule-for-crawling)
+* [px is for the screen, rem is for the reader](https://huam.ing/px-is-for-the-screen-rem-is-for-the-reader)
 * [A Page Should Have Only One Address](https://huam.ing/a-page-should-have-only-one-address)
 * [Structured Data Is a Name Tag, Not a Ranking Boost](https://huam.ing/structured-data-is-a-name-tag-not-a-ranking-boost)
 * [HTML Has a Ruby Tag for Annotation](https://huam.ing/html-has-a-ruby-tag-for-annotation)
